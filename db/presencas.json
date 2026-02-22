@@ -1,1 +1,30 @@
-[]
+[
+    {
+        "data": "2026-02-22",
+        "hora": "11:03:35",
+        "matricula": "11111",
+        "nome": "THIAGO MONTEIRO NOGUEIRA",
+        "turma": "5º Ano - A"
+    },
+    {
+        "data": "2026-02-22",
+        "hora": "11:03:48",
+        "matricula": "11111",
+        "nome": "THIAGO MONTEIRO NOGUEIRA",
+        "turma": "6º Ano - A"
+    },
+    {
+        "data": "2026-02-22",
+        "hora": "11:04:16",
+        "matricula": "11111",
+        "nome": "THIAGO MONTEIRO NOGUEIRA",
+        "turma": "7º Ano - U"
+    },
+    {
+        "data": "2026-02-22",
+        "hora": "11:04:28",
+        "matricula": "11111",
+        "nome": "THIAGO MONTEIRO NOGUEIRA",
+        "turma": "9º Ano - U"
+    }
+]

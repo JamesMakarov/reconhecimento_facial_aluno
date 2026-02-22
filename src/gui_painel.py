@@ -22,11 +22,11 @@ class PainelReconhecimento(ctk.CTk):
 		self.title("Sistema de Chamada Facial")
 		self.geometry("950x650")
 
-		# Componente mestre de Abas
+		self.dados_presencas = []
+
 		self.sistema_abas = ctk.CTkTabview(self)
 		self.sistema_abas.pack(fill="both", expand=True, padx=10, pady=10)
 
-		# Criando as páginas
 		self.aba_operacao = self.sistema_abas.add("Operação")
 		self.aba_relatorios = self.sistema_abas.add("Relatórios")
 
@@ -38,7 +38,6 @@ class PainelReconhecimento(ctk.CTk):
 		self.aba_operacao.grid_columnconfigure(1, weight=2)
 		self.aba_operacao.grid_rowconfigure(0, weight=1)
 
-		# ----- PAINEL ESQUERDO (Controles) -----
 		frame_controles = ctk.CTkFrame(self.aba_operacao)
 		frame_controles.grid(row=0, column=0, sticky="nsew", padx=10, pady=10)
 
@@ -63,7 +62,6 @@ class PainelReconhecimento(ctk.CTk):
 		self.botao_encerrar = ctk.CTkButton(frame_controles, text="Encerrar Chamada", width=250, fg_color="#c0392b", hover_color="#e74c3c")
 		self.botao_encerrar.pack(pady=10, padx=20)
 
-		# ----- PAINEL DIREITO (Console de Log) -----
 		frame_console = ctk.CTkFrame(self.aba_operacao)
 		frame_console.grid(row=0, column=1, sticky="nsew", padx=10, pady=10)
 		frame_console.grid_rowconfigure(1, weight=1)
@@ -77,56 +75,95 @@ class PainelReconhecimento(ctk.CTk):
 		self.aba_relatorios.grid_rowconfigure(1, weight=1)
 		self.aba_relatorios.grid_columnconfigure(0, weight=1)
 
-		# Barra superior da aba de relatórios
 		frame_topo = ctk.CTkFrame(self.aba_relatorios, fg_color="transparent")
 		frame_topo.grid(row=0, column=0, sticky="ew", pady=(0, 10))
 
-		ctk.CTkLabel(frame_topo, text="Lista de Presenças Consolidadas", font=("Roboto", 18, "bold")).pack(side="left", padx=10)
-		
-		botao_atualizar = ctk.CTkButton(frame_topo, text="Atualizar Tabela", fg_color="#2980b9", hover_color="#3498db", command=self.carregar_presencas)
+		ctk.CTkLabel(frame_topo, text="Turma:", font=("Roboto", 14, "bold")).pack(side="left", padx=(10, 5))
+		self.filtro_turma = ctk.CTkComboBox(frame_topo, width=150, values=["Nenhuma"], command=self.ao_selecionar_turma)
+		self.filtro_turma.pack(side="left", padx=5)
+
+		ctk.CTkLabel(frame_topo, text="Data da Aula:", font=("Roboto", 14, "bold")).pack(side="left", padx=(20, 5))
+		self.filtro_data = ctk.CTkComboBox(frame_topo, width=150, values=["-"], command=self.exibir_tabela_filtrada)
+		self.filtro_data.pack(side="left", padx=5)
+
+		botao_atualizar = ctk.CTkButton(frame_topo, text="Sincronizar Arquivo", fg_color="#2980b9", hover_color="#3498db", command=self.carregar_banco_presencas)
 		botao_atualizar.pack(side="right", padx=10)
 
-		# Tabela Rolável
 		self.tabela_presencas = ctk.CTkScrollableFrame(self.aba_relatorios)
 		self.tabela_presencas.grid(row=1, column=0, sticky="nsew", padx=10, pady=10)
 		
-		# Carrega a tabela assim que o programa abrir
-		self.carregar_presencas()
+		self.carregar_banco_presencas()
 
 	def log_sistema(self, mensagem):
 		self.caixa_texto_log.insert("end", mensagem + "\n")
-		self.caixa_texto_log.see("end") # Rola o console para o final automaticamente
+		self.caixa_texto_log.see("end")
 
-	def carregar_presencas(self):
+	def carregar_banco_presencas(self):
 		caminho_db = "db/presencas.json"
+		if os.path.exists(caminho_db):
+			try:
+				with open(caminho_db, "r", encoding="utf-8") as arquivo_json:
+					self.dados_presencas = json.load(arquivo_json)
+			except json.JSONDecodeError:
+				self.dados_presencas = []
+		else:
+			self.dados_presencas = []
+
+		turmas_disponiveis = sorted(list(set(registro.get("turma") for registro in self.dados_presencas)))
 		
-		# Destrói os rótulos antigos antes de desenhar os novos
+		if not turmas_disponiveis:
+			self.filtro_turma.configure(values=["Nenhuma"])
+			self.filtro_turma.set("Nenhuma")
+			self.filtro_data.configure(values=["-"])
+			self.filtro_data.set("-")
+			self.limpar_tabela()
+			return
+
+		self.filtro_turma.configure(values=turmas_disponiveis)
+		self.filtro_turma.set(turmas_disponiveis[0])
+		self.ao_selecionar_turma(turmas_disponiveis[0])
+
+	def ao_selecionar_turma(self, turma_selecionada):
+		datas = sorted(list(set(registro.get("data") for registro in self.dados_presencas if registro.get("turma") == turma_selecionada)), reverse=True)
+		
+		if not datas:
+			self.filtro_data.configure(values=["Nenhuma"])
+			self.filtro_data.set("Nenhuma")
+		else:
+			self.filtro_data.configure(values=datas)
+			self.filtro_data.set(datas[0])
+			
+		self.exibir_tabela_filtrada()
+
+	def limpar_tabela(self):
 		for widget in self.tabela_presencas.winfo_children():
 			widget.destroy()
 
-		# Desenha os Cabeçalhos
 		cabecalhos = ["Data", "Hora", "Matrícula", "Nome do Aluno", "Turma"]
 		for col, texto in enumerate(cabecalhos):
 			lbl = ctk.CTkLabel(self.tabela_presencas, text=texto, font=("Roboto", 14, "bold"))
 			lbl.grid(row=0, column=col, padx=15, pady=10, sticky="w")
 
-		if not os.path.exists(caminho_db):
-			lbl_erro = ctk.CTkLabel(self.tabela_presencas, text="Nenhum registro de presença encontrado.", text_color="#e74c3c")
-			lbl_erro.grid(row=1, column=0, columnspan=5, pady=20)
+	def exibir_tabela_filtrada(self, evento_ignorado=None):
+		self.limpar_tabela()
+		
+		turma_selecionada = self.filtro_turma.get()
+		data_selecionada = self.filtro_data.get()
+
+		if turma_selecionada == "Nenhuma" or data_selecionada == "Nenhuma" or data_selecionada == "-":
 			return
 
-		try:
-			with open(caminho_db, "r", encoding="utf-8") as arquivo_json:
-				dados = json.load(arquivo_json)
+		registros_filtrados = [r for r in self.dados_presencas if r.get("turma") == turma_selecionada and r.get("data") == data_selecionada]
+		registros_ordenados = sorted(registros_filtrados, key=lambda x: x.get("nome", ""))
+
+		for linha_idx, registro in enumerate(registros_ordenados, start=1):
+			ctk.CTkLabel(self.tabela_presencas, text=registro.get("data", "")).grid(row=linha_idx, column=0, padx=15, pady=2, sticky="w")
+			ctk.CTkLabel(self.tabela_presencas, text=registro.get("hora", "")).grid(row=linha_idx, column=1, padx=15, pady=2, sticky="w")
+			ctk.CTkLabel(self.tabela_presencas, text=registro.get("matricula", "")).grid(row=linha_idx, column=2, padx=15, pady=2, sticky="w")
 			
-			# Preenche as linhas com os dados
-			for linha_idx, registro in enumerate(dados, start=1):
-				ctk.CTkLabel(self.tabela_presencas, text=registro.get("data", "")).grid(row=linha_idx, column=0, padx=15, pady=2, sticky="w")
-				ctk.CTkLabel(self.tabela_presencas, text=registro.get("hora", "")).grid(row=linha_idx, column=1, padx=15, pady=2, sticky="w")
-				ctk.CTkLabel(self.tabela_presencas, text=registro.get("matricula", "")).grid(row=linha_idx, column=2, padx=15, pady=2, sticky="w")
-				ctk.CTkLabel(self.tabela_presencas, text=registro.get("nome", "")[:25] + "...").grid(row=linha_idx, column=3, padx=15, pady=2, sticky="w")
-				ctk.CTkLabel(self.tabela_presencas, text=registro.get("turma", "")).grid(row=linha_idx, column=4, padx=15, pady=2, sticky="w")
+			nome_limite = registro.get("nome", "")
+			if len(nome_limite) > 30:
+				nome_limite = nome_limite[:27] + "..."
 				
-		except json.JSONDecodeError:
-			lbl_erro = ctk.CTkLabel(self.tabela_presencas, text="O arquivo JSON está vazio ou corrompido.", text_color="#f39c12")
-			lbl_erro.grid(row=1, column=0, columnspan=5, pady=20)
+			ctk.CTkLabel(self.tabela_presencas, text=nome_limite).grid(row=linha_idx, column=3, padx=15, pady=2, sticky="w")
+			ctk.CTkLabel(self.tabela_presencas, text=registro.get("turma", "")).grid(row=linha_idx, column=4, padx=15, pady=2, sticky="w")
