@@ -8,6 +8,9 @@ def processar_cadastros(caminho_txt, diretorio_imagens, diretorio_audios, caminh
 	alunos = construir_base_alunos(caminho_txt)
 	banco_dados = []
 
+	os.makedirs(diretorio_audios, exist_ok=True)
+	os.makedirs(os.path.dirname(caminho_json), exist_ok=True)
+
 	for aluno in alunos:
 		matricula = aluno["matricula"]
 		caminho_imagem = os.path.join(diretorio_imagens, f"{matricula}.jpg")
@@ -40,8 +43,8 @@ def processar_cadastros(caminho_txt, diretorio_imagens, diretorio_audios, caminh
 
 if __name__ == "__main__":
 	processar_cadastros(
-		"../alunos.txt", 
-		"../imagens_cadastro", 
-		"../audios/nomes", 
-		"../db/alunos.json"
+		"alunos.txt", 
+		"imagens_cadastro", 
+		"audios/nomes", 
+		"db/alunos.json"
 	)

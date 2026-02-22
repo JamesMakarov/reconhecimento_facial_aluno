@@ -55,16 +55,19 @@ class PainelReconhecimento(ctk.CTk):
 		self.caixa_texto_log.pack(pady=10)
 
 	def carregar_presencas(self):
-		caminho_db = "../db/presencas.json"
+		caminho_db = "db/presencas.json"
 		self.caixa_texto_log.insert("end", f"\n[SISTEMA] Lendo dados de: {caminho_db}\n")
 		
 		if os.path.exists(caminho_db):
-			with open(caminho_db, "r", encoding="utf-8") as arquivo_json:
-				dados = json.load(arquivo_json)
-				texto_formatado = json.dumps(dados, indent=4, ensure_ascii=False)
-				self.caixa_texto_log.insert("end", f"{texto_formatado}\n")
+			try:
+				with open(caminho_db, "r", encoding="utf-8") as arquivo_json:
+					dados = json.load(arquivo_json)
+					texto_formatado = json.dumps(dados, indent=4, ensure_ascii=False)
+					self.caixa_texto_log.insert("end", f"{texto_formatado}\n")
+			except json.JSONDecodeError:
+				self.caixa_texto_log.insert("end", "[AVISO] Arquivo presencas.json existe, mas está vazio ou mal formatado.\n")
 		else:
-			self.caixa_texto_log.insert("end", "[ERRO] Arquivo presencas.json não localizado no diretório db.\n")
+			self.caixa_texto_log.insert("end", "[ERRO] Arquivo presencas.json ainda não existe.\n")
 
 if __name__ == "__main__":
 	ctk.set_appearance_mode("dark")
