@@ -11,11 +11,19 @@ def processar_cadastros(caminho_txt, diretorio_imagens, diretorio_audios, caminh
 	os.makedirs(diretorio_audios, exist_ok=True)
 	os.makedirs(os.path.dirname(caminho_json), exist_ok=True)
 
+	extensoes = [".jpg", ".jpeg", ".png"]
+
 	for aluno in alunos:
 		matricula = aluno["matricula"]
-		caminho_imagem = os.path.join(diretorio_imagens, f"{matricula}.jpg")
+		caminho_imagem = None
 		
-		if not os.path.exists(caminho_imagem):
+		for ext in extensoes:
+			caminho_teste = os.path.join(diretorio_imagens, f"{matricula}{ext}")
+			if os.path.exists(caminho_teste):
+				caminho_imagem = caminho_teste
+				break
+				
+		if not caminho_imagem:
 			continue
 			
 		imagem = face_recognition.load_image_file(caminho_imagem)

@@ -7,7 +7,6 @@ import motor_audio
 class AppPrincipal:
 	def __init__(self):
 		motor_audio.inicializar_mixer()
-		
 		self.interface = PainelReconhecimento()
 		self.motor = MotorVisao(
 			caminho_db_alunos="db/alunos.json",
@@ -22,6 +21,11 @@ class AppPrincipal:
 		camera_selecionada = self.interface.seletor_camera.get()
 		indice_camera = int(camera_selecionada.split(" - ")[0])
 		
+		self.motor.carregar_banco_turma(turma_selecionada)
+		if not self.motor.encodings_conhecidos:
+			self.interface.log_sistema(f"[ERRO] Nenhum aluno cadastrado na biometria para: {turma_selecionada}")
+			return
+			
 		caminho_audio_iniciar = "audios/sistema/iniciando_chamada.mp3"
 		os.makedirs(os.path.dirname(caminho_audio_iniciar), exist_ok=True)
 		
@@ -30,13 +34,13 @@ class AppPrincipal:
 			
 		motor_audio.tocar_audio_background(caminho_audio_iniciar)
 		
-		self.interface.caixa_texto_log.insert("end", f"[SISTEMA] Iniciando reconhecimento para: {turma_selecionada} na {camera_selecionada}\n")
+		self.interface.log_sistema(f"[SISTEMA] Iniciando reconhecimento para: {turma_selecionada} na {camera_selecionada}")
 		self.thread_visao = threading.Thread(target=self.motor.iniciar_reconhecimento, args=(turma_selecionada, indice_camera))
 		self.thread_visao.start()
 
 	def encerrar_chamada(self):
 		self.motor.parar_reconhecimento()
-		self.interface.caixa_texto_log.insert("end", "[SISTEMA] Processo de visão encerrado. Dados consolidados em db/presencas.json.\n")
+		self.interface.log_sistema("[SISTEMA] Processo de visão encerrado. Dados consolidados em db/presencas.json.")
 
 	def executar(self):
 		self.interface.mainloop()

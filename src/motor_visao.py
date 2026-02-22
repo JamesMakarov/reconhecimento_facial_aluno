@@ -56,7 +56,6 @@ class MotorVisao:
 			json.dump(dados_existentes, f, ensure_ascii=False, indent=4)
 
 	def iniciar_reconhecimento(self, turma_alvo, indice_camera=0):
-		self.carregar_banco_turma(turma_alvo)
 		if not self.encodings_conhecidos:
 			return
 
@@ -64,8 +63,6 @@ class MotorVisao:
 		self.presencas_sessao = {}
 		
 		captura = cv2.VideoCapture(indice_camera, cv2.CAP_DSHOW)
-		
-		motor_audio.inicializar_mixer()
 		
 		while self.rodando:
 			ret, frame = captura.read()
