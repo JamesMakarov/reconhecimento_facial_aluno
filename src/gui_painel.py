@@ -1,12 +1,28 @@
 import customtkinter as ctk
 import json
 import os
+import cv2
+from pygrabber.dshow_graph import FilterGraph
+
+def listar_cameras():
+	try:
+		graph = FilterGraph()
+		dispositivos = graph.get_input_devices()
+		lista_formatada = []
+		for indice, nome in enumerate(dispositivos):
+			lista_formatada.append(f"{indice} - {nome}")
+		
+		if not lista_formatada:
+			return ["0 - Câmera Padrão"]
+		return lista_formatada
+	except Exception:
+		return ["0 - Câmera 0", "1 - Câmera 1", "2 - Câmera 2", "3 - Câmera 3"]
 
 class PainelReconhecimento(ctk.CTk):
 	def __init__(self):
 		super().__init__()
 		self.title("Controle de Chamada - Visão Computacional")
-		self.geometry("700x550")
+		self.geometry("700x650")
 		
 		self.rotulo_turma = ctk.CTkLabel(self, text="Selecione a Turma:", font=("Roboto", 16))
 		self.rotulo_turma.pack(pady=(20, 5))
@@ -19,10 +35,17 @@ class PainelReconhecimento(ctk.CTk):
 		])
 		self.seletor_turma.pack(pady=5)
 		
-		self.botao_iniciar = ctk.CTkButton(self, text="Iniciar Chamada", width=250, fg_color="green", hover_color="darkgreen", command=self.iniciar_processo_chamada)
+		self.rotulo_camera = ctk.CTkLabel(self, text="Selecione a Câmera:", font=("Roboto", 16))
+		self.rotulo_camera.pack(pady=(10, 5))
+		
+		lista_cameras = listar_cameras()
+		self.seletor_camera = ctk.CTkComboBox(self, width=250, values=lista_cameras)
+		self.seletor_camera.pack(pady=5)
+		
+		self.botao_iniciar = ctk.CTkButton(self, text="Iniciar Chamada", width=250, fg_color="green", hover_color="darkgreen")
 		self.botao_iniciar.pack(pady=15)
 		
-		self.botao_encerrar = ctk.CTkButton(self, text="Encerrar Chamada", width=250, fg_color="red", hover_color="darkred", command=self.encerrar_processo_chamada)
+		self.botao_encerrar = ctk.CTkButton(self, text="Encerrar Chamada", width=250, fg_color="red", hover_color="darkred")
 		self.botao_encerrar.pack(pady=5)
 		
 		self.botao_presencas = ctk.CTkButton(self, text="Ver Presenças (JSON)", width=250, command=self.carregar_presencas)
@@ -30,13 +53,6 @@ class PainelReconhecimento(ctk.CTk):
 		
 		self.caixa_texto_log = ctk.CTkTextbox(self, width=600, height=200, font=("Consolas", 12))
 		self.caixa_texto_log.pack(pady=10)
-
-	def iniciar_processo_chamada(self):
-		turma_selecionada = self.seletor_turma.get()
-		self.caixa_texto_log.insert("end", f"[SISTEMA] Iniciando reconhecimento para: {turma_selecionada}\n")
-
-	def encerrar_processo_chamada(self):
-		self.caixa_texto_log.insert("end", "[SISTEMA] Processo de visão encerrado. Dados consolidados.\n")
 
 	def carregar_presencas(self):
 		caminho_db = "../db/presencas.json"
