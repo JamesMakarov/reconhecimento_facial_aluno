@@ -7,12 +7,7 @@ def normalizar_nome_arquivo(nome):
 	return nome_limpo.lower().replace(" ", "_")
 
 def extrair_nome_vocalizacao(nome_completo):
-	partes = nome_completo.strip().split()
-	if len(partes) > 1:
-		return f"{partes[0]} {partes[1]}"
-	if partes:
-		return partes[0]
-	return ""
+	return nome_completo.strip().title()
 
 def construir_base_alunos(caminho_arquivo):
 	lista_alunos = []

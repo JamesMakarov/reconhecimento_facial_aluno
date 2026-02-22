@@ -40,7 +40,9 @@ class AppPrincipal:
 
 	def encerrar_chamada(self):
 		self.motor.parar_reconhecimento()
-		self.interface.log_sistema("[SISTEMA] Processo de visão encerrado. Dados consolidados em db/presencas.json.")
+		self.interface.log_sistema("[SISTEMA] Processo de visão encerrado. Dados salvos no banco.")
+		# Atualiza a tabela na segunda aba de forma automática
+		self.interface.carregar_presencas()
 
 	def executar(self):
 		self.interface.mainloop()
