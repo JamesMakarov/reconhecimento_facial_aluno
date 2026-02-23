@@ -82,5 +82,21 @@
         "nome": "JOAO VICTOR NUNES DE MACEDO",
         "turma": "8º Ano - B",
         "grupo": "Grupo 2"
+    },
+    {
+        "data": "2026-02-22",
+        "hora": "23:33:57",
+        "matricula": "11111",
+        "nome": "THIAGO MONTEIRO NOGUEIRA",
+        "turma": "1º Ano - A",
+        "grupo": "Grupo 1"
+    },
+    {
+        "data": "2026-02-22",
+        "hora": "23:33:57",
+        "matricula": "11111",
+        "nome": "THIAGO MONTEIRO NOGUEIRA",
+        "turma": "1º Ano - A",
+        "grupo": "Grupo 1"
     }
 ]
