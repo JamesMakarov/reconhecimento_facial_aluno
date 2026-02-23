@@ -62,61 +62,54 @@ class MotorVisao:
 		self.rodando = True
 		self.presencas_sessao = {}
 		
-		captura = cv2.VideoCapture(indice_camera, cv2.CAP_DSHOW)
-		
-		captura.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-		captura.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
-		captura.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+		# Inicialização básica original
+		captura = cv2.VideoCapture(indice_camera)
 		
 		total_inscritos = len(self.encodings_conhecidos)
 		qtd_grupos = max(3, min(7, total_inscritos // 4))
 		if qtd_grupos < 1: 
 			qtd_grupos = 1
-			
-		processar_este_frame = True
 		
 		while self.rodando:
 			ret, frame = captura.read()
 			if not ret:
 				break
 
-			if processar_este_frame:
-				# Agora sim! Mandando a imagem leve, mas em escala real para a IA
-				rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+			# Redução simples
+			frame_reduzido = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+			rgb_reduzido = cv2.cvtColor(frame_reduzido, cv2.COLOR_BGR2RGB)
 
-				locais_faces = face_recognition.face_locations(rgb_frame)
-				encodings_faces = face_recognition.face_encodings(rgb_frame, locais_faces)
+			locais_faces = face_recognition.face_locations(rgb_reduzido)
+			encodings_faces = face_recognition.face_encodings(rgb_reduzido, locais_faces)
 
-				for encoding_face in encodings_faces:
-					matches = face_recognition.compare_faces(self.encodings_conhecidos, encoding_face, tolerance=0.5)
-					distancias = face_recognition.face_distance(self.encodings_conhecidos, encoding_face)
+			for encoding_face in encodings_faces:
+				matches = face_recognition.compare_faces(self.encodings_conhecidos, encoding_face, tolerance=0.45)
+				distancias = face_recognition.face_distance(self.encodings_conhecidos, encoding_face)
+				
+				if len(distancias) > 0:
+					melhor_indice = np.argmin(distancias)
 					
-					if len(distancias) > 0:
-						melhor_indice = np.argmin(distancias)
+					if matches[melhor_indice]:
+						aluno_detectado = self.dados_alunos_conhecidos[melhor_indice]
+						matricula = aluno_detectado["matricula"]
 						
-						if matches[melhor_indice]:
-							aluno_detectado = self.dados_alunos_conhecidos[melhor_indice]
-							matricula = aluno_detectado["matricula"]
+						if matricula not in self.presencas_sessao:
+							agora = datetime.now()
+							indice_grupo_alocado = (len(self.presencas_sessao) % qtd_grupos) + 1
+							nome_grupo_formatado = f"Grupo {indice_grupo_alocado}"
 							
-							if matricula not in self.presencas_sessao:
-								agora = datetime.now()
-								indice_grupo_alocado = (len(self.presencas_sessao) % qtd_grupos) + 1
-								nome_grupo_formatado = f"Grupo {indice_grupo_alocado}"
-								
-								self.presencas_sessao[matricula] = {
-									"nome": aluno_detectado["nome_completo"],
-									"data": agora.strftime("%Y-%m-%d"),
-									"hora": agora.strftime("%H:%M:%S"),
-									"grupo": nome_grupo_formatado
-								}
-								
-								nome_arquivo = aluno_detectado.get("arquivo_audio")
-								if nome_arquivo:
-									caminho_audio_nome = os.path.join(self.diretorio_audios, nome_arquivo)
-									caminho_audio_grupo = f"audios/sistema/grupo_{indice_grupo_alocado}.mp3"
-									motor_audio.tocar_audio_background([caminho_audio_nome, caminho_audio_grupo])
-			
-			processar_este_frame = not processar_este_frame
+							self.presencas_sessao[matricula] = {
+								"nome": aluno_detectado["nome_completo"],
+								"data": agora.strftime("%Y-%m-%d"),
+								"hora": agora.strftime("%H:%M:%S"),
+								"grupo": nome_grupo_formatado
+							}
+							
+							nome_arquivo = aluno_detectado.get("arquivo_audio")
+							if nome_arquivo:
+								caminho_audio_nome = os.path.join(self.diretorio_audios, nome_arquivo)
+								caminho_audio_grupo = f"audios/sistema/grupo_{indice_grupo_alocado}.mp3"
+								motor_audio.tocar_audio_background([caminho_audio_nome, caminho_audio_grupo])
 
 		captura.release()
 		self.salvar_presencas(turma_alvo)
