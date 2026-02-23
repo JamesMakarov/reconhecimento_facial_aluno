@@ -2,3 +2,13 @@
 *.jpeg
 *.jpg
 *.mp3
+
+icone.ico
+
+__pychache__/
+*.pyc
+
+*.spec
+
+build/
+dist/

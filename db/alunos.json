@@ -3,6 +3,7 @@
         "matricula": "2022361",
         "nome_completo": "CALEB SANTOS OLIVEIRA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "caleb_santos.mp3",
         "encoding": [
             -0.028116246685385704,
             0.062077756971120834,
@@ -138,6 +139,7 @@
         "matricula": "2022066",
         "nome_completo": "CALEBE MONTEIRO DE SOUSA SOARES",
         "turma": "1º Ano - A",
+        "arquivo_audio": "calebe_monteiro.mp3",
         "encoding": [
             -0.08897960931062698,
             0.0009776363149285316,
@@ -273,6 +275,7 @@
         "matricula": "2022077",
         "nome_completo": "CLARA BARBOSA SOUSA CRUZ",
         "turma": "1º Ano - A",
+        "arquivo_audio": "clara_barbosa.mp3",
         "encoding": [
             -0.12777771055698395,
             0.023119907826185226,
@@ -408,6 +411,7 @@
         "matricula": "2022033",
         "nome_completo": "HEITOR ALMEIDA MARTINS DA SILVA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "heitor_almeida.mp3",
         "encoding": [
             -0.14130109548568726,
             0.02899676188826561,
@@ -543,6 +547,7 @@
         "matricula": "2022191",
         "nome_completo": "JOÃO MENDES DE LIMA NETO",
         "turma": "1º Ano - A",
+        "arquivo_audio": "joao_mendes.mp3",
         "encoding": [
             -0.16326861083507538,
             0.07315446436405182,
@@ -678,6 +683,7 @@
         "matricula": "2022179",
         "nome_completo": "LUIS CACAU OLIVEIRA GOMES CASTRO",
         "turma": "1º Ano - A",
+        "arquivo_audio": "luis_cacau.mp3",
         "encoding": [
             -0.15264467895030975,
             0.10564663261175156,
@@ -813,6 +819,7 @@
         "matricula": "2022065",
         "nome_completo": "LUIZ FERNANDO DE CASTRO INÁCIO",
         "turma": "1º Ano - A",
+        "arquivo_audio": "luiz_fernando.mp3",
         "encoding": [
             -0.1331883668899536,
             0.02661433070898056,
@@ -948,6 +955,7 @@
         "matricula": "2022183",
         "nome_completo": "LUMA ISABEL CONSTANTINO DE LIMA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "luma_isabel.mp3",
         "encoding": [
             -0.16677431762218475,
             0.0812748596072197,
@@ -1083,6 +1091,7 @@
         "matricula": "2022006",
         "nome_completo": "MAITÊ FERREIRA BANDEIRA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "maite_ferreira.mp3",
         "encoding": [
             -0.07208578288555145,
             -0.0008338438346982002,
@@ -1218,6 +1227,7 @@
         "matricula": "2022012",
         "nome_completo": "MAITÊ PROCOPIO MOREIRA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "maite_procopio.mp3",
         "encoding": [
             -0.14682380855083466,
             -0.02110004425048828,
@@ -1353,6 +1363,7 @@
         "matricula": "2022311",
         "nome_completo": "MARIA FLOR PEREIRA DA SILVA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "maria_flor.mp3",
         "encoding": [
             -0.08773744851350784,
             0.11579404771327972,
@@ -1488,6 +1499,7 @@
         "matricula": "2022194",
         "nome_completo": "MARIA GIULLIA GOMES ABINTES",
         "turma": "1º Ano - A",
+        "arquivo_audio": "maria_giullia.mp3",
         "encoding": [
             -0.10926719754934311,
             0.08491189032793045,
@@ -1623,6 +1635,7 @@
         "matricula": "2022032",
         "nome_completo": "MIGUEL ARTHUR DA SILVA MORAIS",
         "turma": "1º Ano - A",
+        "arquivo_audio": "miguel_arthur.mp3",
         "encoding": [
             -0.1395910531282425,
             0.06517697870731354,
@@ -1758,6 +1771,7 @@
         "matricula": "2022080",
         "nome_completo": "PEDRO OTAVIO DE OLIVEIRA SOUZA CARNEIRO",
         "turma": "1º Ano - A",
+        "arquivo_audio": "pedro_otavio.mp3",
         "encoding": [
             -0.1493675261735916,
             0.06301838159561157,
@@ -1893,6 +1907,7 @@
         "matricula": "2022034",
         "nome_completo": "SARAH GOMES DE LIMA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "sarah_gomes.mp3",
         "encoding": [
             -0.10808518528938293,
             0.0545998141169548,
@@ -2028,6 +2043,7 @@
         "matricula": "2022069",
         "nome_completo": "SELENA GALVÃO BEDÊ",
         "turma": "1º Ano - A",
+        "arquivo_audio": "selena_galvao.mp3",
         "encoding": [
             -0.06215641647577286,
             0.1148359626531601,
@@ -2163,6 +2179,7 @@
         "matricula": "20210035",
         "nome_completo": "THEO ALEXANDRE ARAÚJO DA SILVA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "theo_alexandre.mp3",
         "encoding": [
             -0.11885704100131989,
             0.04557052627205849,
@@ -2298,6 +2315,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "1º Ano - A",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -2433,6 +2451,7 @@
         "matricula": "2022083",
         "nome_completo": "ALEXANDRE FREITAS FERREIRA FILHO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "alexandre_freitas.mp3",
         "encoding": [
             -0.09921062737703323,
             -0.028587862849235535,
@@ -2568,6 +2587,7 @@
         "matricula": "2022174",
         "nome_completo": "ANA JULIA CHAVES VENTURA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "ana_julia_chaves.mp3",
         "encoding": [
             -0.14647597074508667,
             0.01706002466380596,
@@ -2703,6 +2723,7 @@
         "matricula": "2022187",
         "nome_completo": "ANA VITÓRIA MIRANDA DA SILVA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "ana_vitoria_miranda.mp3",
         "encoding": [
             -0.12660765647888184,
             -0.01900448277592659,
@@ -2838,6 +2859,7 @@
         "matricula": "2022148",
         "nome_completo": "BERNARDO SILVA MIRANDA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "bernardo_silva.mp3",
         "encoding": [
             -0.009223868139088154,
             0.04007605090737343,
@@ -2973,6 +2995,7 @@
         "matricula": "2022075",
         "nome_completo": "ESTHER DA SILVA DOURADO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "esther_da_silva.mp3",
         "encoding": [
             -0.1198228970170021,
             0.047619324177503586,
@@ -3108,6 +3131,7 @@
         "matricula": "2022121",
         "nome_completo": "FELIPE RHAVI ALVES FABRICIO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "felipe_rhavi.mp3",
         "encoding": [
             -0.1626790463924408,
             0.01379714347422123,
@@ -3243,6 +3267,7 @@
         "matricula": "2022299",
         "nome_completo": "HEITOR MESQUITA DOS SANTOS",
         "turma": "1º Ano - B",
+        "arquivo_audio": "heitor_mesquita.mp3",
         "encoding": [
             -0.054146043956279755,
             0.08248558640480042,
@@ -3378,6 +3403,7 @@
         "matricula": "2022112",
         "nome_completo": "HEITOR VIANA DEMETRIO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "heitor_viana.mp3",
         "encoding": [
             -0.1217908263206482,
             0.04444592446088791,
@@ -3513,6 +3539,7 @@
         "matricula": "2022380",
         "nome_completo": "ISAC TRAJANO LIMA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "isac_trajano.mp3",
         "encoding": [
             -0.08607901632785797,
             -0.0022606374695897102,
@@ -3648,6 +3675,7 @@
         "matricula": "2022403",
         "nome_completo": "LAURA MARIA NEPOMUCENO SILVA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "laura_maria_nepomuceno.mp3",
         "encoding": [
             -0.08224079012870789,
             -6.981659680604935e-05,
@@ -3783,6 +3811,7 @@
         "matricula": "2022424",
         "nome_completo": "LORENNA MARTINS BARROS",
         "turma": "1º Ano - B",
+        "arquivo_audio": "lorenna_martins.mp3",
         "encoding": [
             -0.0804855078458786,
             -0.01262771524488926,
@@ -3918,6 +3947,7 @@
         "matricula": "2022362",
         "nome_completo": "LORENZO SANTOS PACHECO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "lorenzo_santos.mp3",
         "encoding": [
             -0.1148630678653717,
             0.04181147739291191,
@@ -4053,6 +4083,7 @@
         "matricula": "2022094",
         "nome_completo": "LOUISE ELLEN CAVALCANTE DOS SANTOS",
         "turma": "1º Ano - B",
+        "arquivo_audio": "louise_ellen.mp3",
         "encoding": [
             -0.06379237771034241,
             -0.050292614847421646,
@@ -4188,6 +4219,7 @@
         "matricula": "2022421",
         "nome_completo": "LUAN FERNANDES SOARES LOPES",
         "turma": "1º Ano - B",
+        "arquivo_audio": "luan_fernandes.mp3",
         "encoding": [
             -0.0794910192489624,
             0.06390106678009033,
@@ -4323,6 +4355,7 @@
         "matricula": "2022165",
         "nome_completo": "MARIA ISADORA HOLANDA SILVA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "maria_isadora_holanda.mp3",
         "encoding": [
             -0.09941375255584717,
             0.03849685192108154,
@@ -4458,6 +4491,7 @@
         "matricula": "2022422",
         "nome_completo": "MARIA MANUELLA BARRETO DO NASCIMENTO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "maria_manuella.mp3",
         "encoding": [
             -0.09542909264564514,
             -0.0013288725167512894,
@@ -4593,6 +4627,7 @@
         "matricula": "2022119",
         "nome_completo": "MARIA VIVYAM DA SILVA CARVALHO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "maria_vivyam.mp3",
         "encoding": [
             -0.04463749751448631,
             -0.004248792305588722,
@@ -4728,6 +4763,7 @@
         "matricula": "2022391",
         "nome_completo": "MIGUEL NASCIMENTO MAIA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "miguel_nascimento.mp3",
         "encoding": [
             -0.10378137975931168,
             0.044176921248435974,
@@ -4863,6 +4899,7 @@
         "matricula": "2022199",
         "nome_completo": "RAVI NERY FALCÃO",
         "turma": "1º Ano - B",
+        "arquivo_audio": "ravi_nery.mp3",
         "encoding": [
             -0.13841432332992554,
             -0.019187338650226593,
@@ -4998,6 +5035,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "1º Ano - B",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -5133,6 +5171,7 @@
         "matricula": "2022088",
         "nome_completo": "ALEC MOREIRA MIRANDA",
         "turma": "2º Ano - A",
+        "arquivo_audio": "alec_moreira.mp3",
         "encoding": [
             -0.10525232553482056,
             0.08604754507541656,
@@ -5268,6 +5307,7 @@
         "matricula": "2022269",
         "nome_completo": "ALLANA PRAXEDES ROSA",
         "turma": "2º Ano - A",
+        "arquivo_audio": "allana_praxedes.mp3",
         "encoding": [
             -0.10955014079809189,
             0.08167343586683273,
@@ -5403,6 +5443,7 @@
         "matricula": "20210027",
         "nome_completo": "ANGELO GALVAO BEDE",
         "turma": "2º Ano - A",
+        "arquivo_audio": "angelo_galvao.mp3",
         "encoding": [
             -0.1079317182302475,
             0.058136701583862305,
@@ -5538,6 +5579,7 @@
         "matricula": "2022036",
         "nome_completo": "ANTONIO CAUÃ CÉSAR DA SILVA FELIPE",
         "turma": "2º Ano - A",
+        "arquivo_audio": "antonio_caua.mp3",
         "encoding": [
             -0.1485489308834076,
             0.06660313159227371,
@@ -5673,6 +5715,7 @@
         "matricula": "2022061",
         "nome_completo": "ARTHUR EMANUEL GOMES CARDOSO",
         "turma": "2º Ano - A",
+        "arquivo_audio": "arthur_emanuel.mp3",
         "encoding": [
             -0.12653790414333344,
             0.01880922168493271,
@@ -5808,6 +5851,7 @@
         "matricula": "2022364",
         "nome_completo": "CAIO AMARO MONTEIRO NUNES",
         "turma": "2º Ano - A",
+        "arquivo_audio": "caio_amaro.mp3",
         "encoding": [
             -0.15392833948135376,
             -0.0254877470433712,
@@ -5943,6 +5987,7 @@
         "matricula": "2022045",
         "nome_completo": "EMANUEL GOMES TOMAZ",
         "turma": "2º Ano - A",
+        "arquivo_audio": "emanuel_gomes.mp3",
         "encoding": [
             -0.11296215653419495,
             0.04593127593398094,
@@ -6078,6 +6123,7 @@
         "matricula": "2022214",
         "nome_completo": "EMANUEL LIMA BARRETO",
         "turma": "2º Ano - A",
+        "arquivo_audio": "emanuel_lima.mp3",
         "encoding": [
             -0.064806267619133,
             0.0553106814622879,
@@ -6213,6 +6259,7 @@
         "matricula": "2022040",
         "nome_completo": "GIOVANA RIBEIRO DE LIMA",
         "turma": "2º Ano - A",
+        "arquivo_audio": "giovana_ribeiro.mp3",
         "encoding": [
             -0.10665403306484222,
             0.013492110185325146,
@@ -6348,6 +6395,7 @@
         "matricula": "2022039",
         "nome_completo": "HELOISA CARDOSO ESTACIO",
         "turma": "2º Ano - A",
+        "arquivo_audio": "heloisa_cardoso.mp3",
         "encoding": [
             -0.14104045927524567,
             0.06749497354030609,
@@ -6483,6 +6531,7 @@
         "matricula": "2022079",
         "nome_completo": "JOSAFAT ARAÚJO CARNEIRO TERCIUS",
         "turma": "2º Ano - A",
+        "arquivo_audio": "josafat_araujo.mp3",
         "encoding": [
             -0.10619150102138519,
             0.014047062024474144,
@@ -6618,6 +6667,7 @@
         "matricula": "2022017",
         "nome_completo": "LARA RIBEIRO RAMIRES",
         "turma": "2º Ano - A",
+        "arquivo_audio": "lara_ribeiro.mp3",
         "encoding": [
             -0.11423533409833908,
             0.011912545189261436,
@@ -6753,6 +6803,7 @@
         "matricula": "2022282",
         "nome_completo": "LAURA MARIA HOLANDA NUNES",
         "turma": "2º Ano - A",
+        "arquivo_audio": "laura_maria_holanda.mp3",
         "encoding": [
             -0.10361643135547638,
             0.023094363510608673,
@@ -6888,6 +6939,7 @@
         "matricula": "2022001",
         "nome_completo": "LIA PEREIRA INACIO",
         "turma": "2º Ano - A",
+        "arquivo_audio": "lia_pereira.mp3",
         "encoding": [
             -0.08300027251243591,
             -0.01271328330039978,
@@ -7023,6 +7075,7 @@
         "matricula": "2022418",
         "nome_completo": "MARIA EDUARDA BRAGA DA SILVA",
         "turma": "2º Ano - A",
+        "arquivo_audio": "maria_eduarda.mp3",
         "encoding": [
             -0.11497567594051361,
             0.020668650045990944,
@@ -7158,6 +7211,7 @@
         "matricula": "2022415",
         "nome_completo": "MARIA VITÓRIA PEQUENO MOURA",
         "turma": "2º Ano - A",
+        "arquivo_audio": "maria_vitoria.mp3",
         "encoding": [
             -0.11741584539413452,
             0.06731130927801132,
@@ -7293,6 +7347,7 @@
         "matricula": "2022070",
         "nome_completo": "MAURICIO PEDROSA ESTACIO",
         "turma": "2º Ano - A",
+        "arquivo_audio": "mauricio_pedrosa.mp3",
         "encoding": [
             -0.13405366241931915,
             0.029931671917438507,
@@ -7428,6 +7483,7 @@
         "matricula": "2022003",
         "nome_completo": "POLIANA ROCHA JORGE DE SOUSA",
         "turma": "2º Ano - A",
+        "arquivo_audio": "poliana_rocha.mp3",
         "encoding": [
             -0.12674126029014587,
             -0.04552827030420303,
@@ -7563,6 +7619,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "2º Ano - A",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -7698,6 +7755,7 @@
         "matricula": "2022158",
         "nome_completo": "ALICE MARIA MATOS BRANDÃO",
         "turma": "2º Ano - B",
+        "arquivo_audio": "alice_maria.mp3",
         "encoding": [
             -0.07654478400945663,
             0.032337021082639694,
@@ -7833,6 +7891,7 @@
         "matricula": "2022280",
         "nome_completo": "ANNA MYRELLA FERREIRA GADELHA",
         "turma": "2º Ano - B",
+        "arquivo_audio": "anna_myrella.mp3",
         "encoding": [
             -0.09293897449970245,
             0.025358913466334343,
@@ -7968,6 +8027,7 @@
         "matricula": "2022043",
         "nome_completo": "ARTHUR BATISTA DE OLIVEIRA",
         "turma": "2º Ano - B",
+        "arquivo_audio": "arthur_batista.mp3",
         "encoding": [
             -0.054543763399124146,
             0.10297724604606628,
@@ -8103,6 +8163,7 @@
         "matricula": "2022358",
         "nome_completo": "GABRIEL SAMPAIO DE CASTRO",
         "turma": "2º Ano - B",
+        "arquivo_audio": "gabriel_sampaio.mp3",
         "encoding": [
             -0.09511459618806839,
             0.050678595900535583,
@@ -8238,6 +8299,7 @@
         "matricula": "2022397",
         "nome_completo": "JOÃO BERNARDO DOS SANTOS",
         "turma": "2º Ano - B",
+        "arquivo_audio": "joao_bernardo.mp3",
         "encoding": [
             -0.11082416027784348,
             0.015208420343697071,
@@ -8373,6 +8435,7 @@
         "matricula": "2022228",
         "nome_completo": "JOÃO CARLOS SILVA CIRÍACO MENDES",
         "turma": "2º Ano - B",
+        "arquivo_audio": "joao_carlos.mp3",
         "encoding": [
             -0.09445725381374359,
             0.09626579284667969,
@@ -8508,6 +8571,7 @@
         "matricula": "2022218",
         "nome_completo": "LUNA ANTUNES MARTINS",
         "turma": "2º Ano - B",
+        "arquivo_audio": "luna_antunes.mp3",
         "encoding": [
             -0.12053821235895157,
             0.06367447227239609,
@@ -8643,6 +8707,7 @@
         "matricula": "2022298",
         "nome_completo": "MARIA CECILIA NOGUEIRA ACIOLY",
         "turma": "2º Ano - B",
+        "arquivo_audio": "maria_cecilia_nogueira.mp3",
         "encoding": [
             -0.15931390225887299,
             0.09846231341362,
@@ -8778,6 +8843,7 @@
         "matricula": "2022393",
         "nome_completo": "MARIA CECILIA QUEIROZ FERREIRA",
         "turma": "2º Ano - B",
+        "arquivo_audio": "maria_cecilia_queiroz_ferreira.mp3",
         "encoding": [
             -0.06879718601703644,
             0.05234158784151077,
@@ -8913,6 +8979,7 @@
         "matricula": "2022277",
         "nome_completo": "MARIA ELISE FABRICIO MATIAS",
         "turma": "2º Ano - B",
+        "arquivo_audio": "maria_elise.mp3",
         "encoding": [
             -0.08871447294950485,
             0.1552816778421402,
@@ -9048,6 +9115,7 @@
         "matricula": "2022093",
         "nome_completo": "MARIA JULIA NASCIMENTO BERNARDO",
         "turma": "2º Ano - B",
+        "arquivo_audio": "maria_julia_nascimento.mp3",
         "encoding": [
             -0.07755499333143234,
             0.08020736277103424,
@@ -9183,6 +9251,7 @@
         "matricula": "2022074",
         "nome_completo": "MARIA JULIA UCHOA RODRIGUES",
         "turma": "2º Ano - B",
+        "arquivo_audio": "maria_julia_uchoa.mp3",
         "encoding": [
             -0.08925236016511917,
             0.0472986102104187,
@@ -9318,6 +9387,7 @@
         "matricula": "2022303",
         "nome_completo": "MARIA WALENTYNA GUEDES VIANA",
         "turma": "2º Ano - B",
+        "arquivo_audio": "maria_walentyna.mp3",
         "encoding": [
             -0.15647955238819122,
             0.052858274430036545,
@@ -9453,6 +9523,7 @@
         "matricula": "2022108",
         "nome_completo": "MIGUEL COSTA REIS",
         "turma": "2º Ano - B",
+        "arquivo_audio": "miguel_costa.mp3",
         "encoding": [
             -0.029291799291968346,
             0.0750565156340599,
@@ -9588,6 +9659,7 @@
         "matricula": "2022408",
         "nome_completo": "NÔAH MIGUEL BARROS ARRUDA",
         "turma": "2º Ano - B",
+        "arquivo_audio": "noah_miguel.mp3",
         "encoding": [
             -0.06454933434724808,
             0.07068835943937302,
@@ -9723,6 +9795,7 @@
         "matricula": "2022302",
         "nome_completo": "SAMUEL GONÇALVES FERNANDES",
         "turma": "2º Ano - B",
+        "arquivo_audio": "samuel_goncalves.mp3",
         "encoding": [
             -0.13079731166362762,
             0.0424162819981575,
@@ -9858,6 +9931,7 @@
         "matricula": "2022149",
         "nome_completo": "YANNA VALENTINA PIMENTEL DE ANDRADE",
         "turma": "2º Ano - B",
+        "arquivo_audio": "yanna_valentina.mp3",
         "encoding": [
             -0.04262138158082962,
             0.03857096657156944,
@@ -9993,6 +10067,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "2º Ano - B",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -10128,6 +10203,7 @@
         "matricula": "2022016",
         "nome_completo": "ALICE CAPISTRANO FREIRE BEZERRA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "alice_capistrano.mp3",
         "encoding": [
             -0.0796533152461052,
             0.007726473733782768,
@@ -10263,6 +10339,7 @@
         "matricula": "2022210",
         "nome_completo": "AMARA AUGUSTA FERREIRA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "amara_augusta.mp3",
         "encoding": [
             -0.09926043450832367,
             0.042377445846796036,
@@ -10398,6 +10475,7 @@
         "matricula": "20010320",
         "nome_completo": "ANA LUIZA FERNANDES ALBINO CARNEIRO",
         "turma": "3º Ano - A",
+        "arquivo_audio": "ana_luiza.mp3",
         "encoding": [
             -0.13915786147117615,
             0.04468584805727005,
@@ -10533,6 +10611,7 @@
         "matricula": "20010442",
         "nome_completo": "ANA LUZ CANDIDO VALE",
         "turma": "3º Ano - A",
+        "arquivo_audio": "ana_luz.mp3",
         "encoding": [
             -0.10634515434503555,
             0.0635247677564621,
@@ -10668,6 +10747,7 @@
         "matricula": "2022267",
         "nome_completo": "ANNA JÚLIA SANTOS NASCIMENTO",
         "turma": "3º Ano - A",
+        "arquivo_audio": "anna_julia.mp3",
         "encoding": [
             -0.1969251036643982,
             0.053380854427814484,
@@ -10803,6 +10883,7 @@
         "matricula": "2022004",
         "nome_completo": "CECILIA LIMA GONÇALVES",
         "turma": "3º Ano - A",
+        "arquivo_audio": "cecilia_lima.mp3",
         "encoding": [
             -0.0918547660112381,
             0.09101220965385437,
@@ -10938,6 +11019,7 @@
         "matricula": "20010434",
         "nome_completo": "JOÃO GABRIEL MODESTO DE SOUSA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "joao_gabriel.mp3",
         "encoding": [
             -0.1737511157989502,
             0.04808005690574646,
@@ -11073,6 +11155,7 @@
         "matricula": "2022090",
         "nome_completo": "JOÃO VICTOR CAVALCANTE MAIA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "joao_victor.mp3",
         "encoding": [
             -0.11754275858402252,
             0.09848754853010178,
@@ -11208,6 +11291,7 @@
         "matricula": "2022196",
         "nome_completo": "JOSÉ WILGNER ANASTÁCIO BEZERRA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "jose_wilgner.mp3",
         "encoding": [
             -0.0468488372862339,
             0.05538405478000641,
@@ -11343,6 +11427,7 @@
         "matricula": "20010436",
         "nome_completo": "JULLIA LOUISE MIRANDA ABREU",
         "turma": "3º Ano - A",
+        "arquivo_audio": "jullia_louise.mp3",
         "encoding": [
             -0.10950008779764175,
             0.03864113986492157,
@@ -11478,6 +11563,7 @@
         "matricula": "2022059",
         "nome_completo": "LAURA SILVA GUEDES",
         "turma": "3º Ano - A",
+        "arquivo_audio": "laura_silva.mp3",
         "encoding": [
             -0.15099431574344635,
             0.03325003385543823,
@@ -11613,6 +11699,7 @@
         "matricula": "20010433",
         "nome_completo": "LOHARA PACHECO CHAVES",
         "turma": "3º Ano - A",
+        "arquivo_audio": "lohara_pacheco.mp3",
         "encoding": [
             -0.036874011158943176,
             0.010051572695374489,
@@ -11748,6 +11835,7 @@
         "matricula": "20010401",
         "nome_completo": "MANUELA DE AZEVEDO PAIVA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "manuela_de_azevedo.mp3",
         "encoding": [
             -0.17635475099086761,
             0.019313015043735504,
@@ -11883,6 +11971,7 @@
         "matricula": "2022369",
         "nome_completo": "MARIA ISIS COSTA PINHEIRO",
         "turma": "3º Ano - A",
+        "arquivo_audio": "maria_isis.mp3",
         "encoding": [
             -0.1242295354604721,
             0.04704662412405014,
@@ -12018,6 +12107,7 @@
         "matricula": "20010461",
         "nome_completo": "MARIA JULIA DA SILVA PACHECO",
         "turma": "3º Ano - A",
+        "arquivo_audio": "maria_julia_da_silva.mp3",
         "encoding": [
             -0.14747099578380585,
             0.02868412435054779,
@@ -12153,6 +12243,7 @@
         "matricula": "2022330",
         "nome_completo": "MELINA CASTRO FERREIRA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "melina_castro.mp3",
         "encoding": [
             -0.03389325365424156,
             0.048423610627651215,
@@ -12288,6 +12379,7 @@
         "matricula": "2022411",
         "nome_completo": "PEDRO NICOLAS FERREIRA SILVA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "pedro_nicolas.mp3",
         "encoding": [
             -0.13859353959560394,
             0.02137462981045246,
@@ -12423,6 +12515,7 @@
         "matricula": "20010423",
         "nome_completo": "THAIS BARBOSA LIMA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "thais_barbosa.mp3",
         "encoding": [
             -0.14135271310806274,
             0.06192837655544281,
@@ -12558,6 +12651,7 @@
         "matricula": "20010429",
         "nome_completo": "THÉO PEREIRA DE SOUZA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "theo_pereira.mp3",
         "encoding": [
             -0.08923814445734024,
             0.09765918552875519,
@@ -12693,6 +12787,7 @@
         "matricula": "20010451",
         "nome_completo": "THEO SOUSA ROCHA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "theo_sousa.mp3",
         "encoding": [
             -0.04881350323557854,
             0.0443657748401165,
@@ -12828,6 +12923,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "3º Ano - A",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -12963,6 +13059,7 @@
         "matricula": "2022041",
         "nome_completo": "ABRAÃO CARVALHO CASTELO FARIAS",
         "turma": "3º Ano - B",
+        "arquivo_audio": "abraao_carvalho.mp3",
         "encoding": [
             -0.11365733295679092,
             -0.03679530322551727,
@@ -13098,6 +13195,7 @@
         "matricula": "20010416",
         "nome_completo": "ANNA ELLOÁ MARTINS FERREIRA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "anna_elloa.mp3",
         "encoding": [
             -0.1417841911315918,
             0.05135384202003479,
@@ -13233,6 +13331,7 @@
         "matricula": "20210022",
         "nome_completo": "ARTHUR PALACIO ALCANTARA DE CARVALHO",
         "turma": "3º Ano - B",
+        "arquivo_audio": "arthur_palacio.mp3",
         "encoding": [
             -0.09717223048210144,
             0.04354669153690338,
@@ -13368,6 +13467,7 @@
         "matricula": "20010424",
         "nome_completo": "BENTO CORDEIRO DANTAS HOLANDA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "bento_cordeiro.mp3",
         "encoding": [
             -0.07669231295585632,
             0.04668319597840309,
@@ -13503,6 +13603,7 @@
         "matricula": "2022005",
         "nome_completo": "ENZO GABRIEL SILVA ESTÁCIO",
         "turma": "3º Ano - B",
+        "arquivo_audio": "enzo_gabriel.mp3",
         "encoding": [
             -0.06861759722232819,
             0.020061124116182327,
@@ -13638,6 +13739,7 @@
         "matricula": "2022400",
         "nome_completo": "HELENA DA SILVA VITURIANO",
         "turma": "3º Ano - B",
+        "arquivo_audio": "helena_da_silva.mp3",
         "encoding": [
             -0.08106837421655655,
             0.0325964018702507,
@@ -13773,6 +13875,7 @@
         "matricula": "20010480",
         "nome_completo": "JOSÉ DAVI NAZARIO DA SILVA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "jose_davi.mp3",
         "encoding": [
             -0.01674094796180725,
             0.05993896722793579,
@@ -13908,6 +14011,7 @@
         "matricula": "2022195",
         "nome_completo": "LORENZO NOGUEIRA VIANA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "lorenzo_nogueira.mp3",
         "encoding": [
             -0.10464828461408615,
             0.027816910296678543,
@@ -14043,6 +14147,7 @@
         "matricula": "20010435",
         "nome_completo": "LUNA COLAÇO PINHEIRO",
         "turma": "3º Ano - B",
+        "arquivo_audio": "luna_colaco.mp3",
         "encoding": [
             -0.09122011810541153,
             0.014938061125576496,
@@ -14178,6 +14283,7 @@
         "matricula": "2022104",
         "nome_completo": "MARIA CLARA GOMES ABINTES",
         "turma": "3º Ano - B",
+        "arquivo_audio": "maria_clara.mp3",
         "encoding": [
             -0.13455890119075775,
             0.08933771401643753,
@@ -14313,6 +14419,7 @@
         "matricula": "20010454",
         "nome_completo": "MARIA JULIA SOUZA DA COSTA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "maria_julia_souza.mp3",
         "encoding": [
             -0.041018180549144745,
             0.01888946257531643,
@@ -14448,6 +14555,7 @@
         "matricula": "20010455",
         "nome_completo": "MARIA LAURA RIBEIRO LIMA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "maria_laura_ribeiro.mp3",
         "encoding": [
             -0.05574369803071022,
             0.03855867683887482,
@@ -14583,6 +14691,7 @@
         "matricula": "2022019",
         "nome_completo": "MARIANA FREIRE LIMA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "mariana_freire.mp3",
         "encoding": [
             -0.050791557878255844,
             0.018901871517300606,
@@ -14718,6 +14827,7 @@
         "matricula": "2022107",
         "nome_completo": "MAURO ALVES DA SILVA NETO",
         "turma": "3º Ano - B",
+        "arquivo_audio": "mauro_alves.mp3",
         "encoding": [
             -0.05854867771267891,
             0.07910406589508057,
@@ -14853,6 +14963,7 @@
         "matricula": "20010425",
         "nome_completo": "MIGUEL RIBEIRO COSTA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "miguel_ribeiro.mp3",
         "encoding": [
             -0.12442261725664139,
             0.0030323946848511696,
@@ -14988,6 +15099,7 @@
         "matricula": "2022241",
         "nome_completo": "MIGUEL ROCHA FARIAS",
         "turma": "3º Ano - B",
+        "arquivo_audio": "miguel_rocha.mp3",
         "encoding": [
             -0.12103726714849472,
             0.056138765066862106,
@@ -15123,6 +15235,7 @@
         "matricula": "2022371",
         "nome_completo": "PEDRO GUSTAVO MARTINS",
         "turma": "3º Ano - B",
+        "arquivo_audio": "pedro_gustavo.mp3",
         "encoding": [
             -0.20594164729118347,
             0.07391216605901718,
@@ -15258,6 +15371,7 @@
         "matricula": "20010428",
         "nome_completo": "SARAH MAIA DE OLIVEIRA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "sarah_maia.mp3",
         "encoding": [
             -0.07207003235816956,
             0.04449963569641113,
@@ -15393,6 +15507,7 @@
         "matricula": "2022419",
         "nome_completo": "THAYLLA MARIA FONTES DE SANTANA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "thaylla_maria.mp3",
         "encoding": [
             -0.10252131521701813,
             0.1081521287560463,
@@ -15528,6 +15643,7 @@
         "matricula": "20010449",
         "nome_completo": "THÉO CORDEIRO DE OLIVEIRA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "theo_cordeiro.mp3",
         "encoding": [
             -0.13618654012680054,
             0.031005309894680977,
@@ -15663,6 +15779,7 @@
         "matricula": "20210026",
         "nome_completo": "ISABELLA MARIA TEIXEIRA PACÍFICO",
         "turma": "3º Ano - B",
+        "arquivo_audio": "isabella_maria.mp3",
         "encoding": [
             -0.12689927220344543,
             0.04950009286403656,
@@ -15798,6 +15915,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "3º Ano - B",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -15933,6 +16051,7 @@
         "matricula": "2022324",
         "nome_completo": "ANA ELOÁ HOLANDA COSTA SILVA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "ana_eloa.mp3",
         "encoding": [
             -0.11085543036460876,
             -0.0198229867964983,
@@ -16068,6 +16187,7 @@
         "matricula": "2022386",
         "nome_completo": "ANA ESTER SANTOS MAIA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "ana_ester.mp3",
         "encoding": [
             -0.13594111800193787,
             0.093116395175457,
@@ -16203,6 +16323,7 @@
         "matricula": "2022381",
         "nome_completo": "ANNA LUISA SILVA RIOS",
         "turma": "4º Ano - A",
+        "arquivo_audio": "anna_luisa.mp3",
         "encoding": [
             -0.014231672510504723,
             0.02188357710838318,
@@ -16338,6 +16459,7 @@
         "matricula": "2022111",
         "nome_completo": "BENICIO VITALIANO MOREIRA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "benicio_vitaliano.mp3",
         "encoding": [
             -0.07089360058307648,
             0.04943007230758667,
@@ -16473,6 +16595,7 @@
         "matricula": "2022276",
         "nome_completo": "ELOISEH CRISTYNA VIEIRA DA SILVA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "eloiseh_cristyna.mp3",
         "encoding": [
             -0.16078339517116547,
             0.03659714013338089,
@@ -16608,6 +16731,7 @@
         "matricula": "20010419",
         "nome_completo": "ESTHER GOMES TOMAZ",
         "turma": "4º Ano - A",
+        "arquivo_audio": "esther_gomes.mp3",
         "encoding": [
             -0.11011949181556702,
             0.01838320679962635,
@@ -16743,6 +16867,7 @@
         "matricula": "2022392",
         "nome_completo": "FÁTIMA LUIZA DE LIMA MATEUS",
         "turma": "4º Ano - A",
+        "arquivo_audio": "fatima_luiza.mp3",
         "encoding": [
             -0.08720056712627411,
             0.0023215599358081818,
@@ -16878,6 +17003,7 @@
         "matricula": "20010298",
         "nome_completo": "HEITOR AZEVEDO SOUSA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "heitor_azevedo.mp3",
         "encoding": [
             -0.10694777965545654,
             0.08620937168598175,
@@ -17013,6 +17139,7 @@
         "matricula": "2022433",
         "nome_completo": "JONAS HENRIQUE SOUZA RODRIGUES",
         "turma": "4º Ano - A",
+        "arquivo_audio": "jonas_henrique.mp3",
         "encoding": [
             -0.13158059120178223,
             0.06106250733137131,
@@ -17148,6 +17275,7 @@
         "matricula": "2022155",
         "nome_completo": "KAUAN NUNES LELIS",
         "turma": "4º Ano - A",
+        "arquivo_audio": "kauan_nunes.mp3",
         "encoding": [
             -0.2340003401041031,
             -0.051830604672431946,
@@ -17283,6 +17411,7 @@
         "matricula": "20010321",
         "nome_completo": "LAURA MARIA LIMA DA SILVA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "laura_maria_lima.mp3",
         "encoding": [
             -0.14348801970481873,
             0.011313230730593204,
@@ -17418,6 +17547,7 @@
         "matricula": "20010313",
         "nome_completo": "LAURA RAMOS DE FREITAS",
         "turma": "4º Ano - A",
+        "arquivo_audio": "laura_ramos.mp3",
         "encoding": [
             -0.12327169626951218,
             0.0728219747543335,
@@ -17553,6 +17683,7 @@
         "matricula": "20010446",
         "nome_completo": "MELISSA GOUVEIA SILVA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "melissa_gouveia.mp3",
         "encoding": [
             -0.08685620874166489,
             0.09663161635398865,
@@ -17688,6 +17819,7 @@
         "matricula": "2022395",
         "nome_completo": "MÉRCIO FRIEDRICH METZLER DA SILVA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "mercio_friedrich.mp3",
         "encoding": [
             -0.1001732125878334,
             0.07099981606006622,
@@ -17823,6 +17955,7 @@
         "matricula": "2022297",
         "nome_completo": "PEDRO ARTHUR NOGUEIRA ACIOLY",
         "turma": "4º Ano - A",
+        "arquivo_audio": "pedro_arthur_nogueira.mp3",
         "encoding": [
             -0.05717340484261513,
             0.03930560126900673,
@@ -17958,6 +18091,7 @@
         "matricula": "20010458",
         "nome_completo": "PEDRO MIGUEL DE HOLANDA RODRIGUES",
         "turma": "4º Ano - A",
+        "arquivo_audio": "pedro_miguel.mp3",
         "encoding": [
             -0.21100300550460815,
             0.005541798658668995,
@@ -18093,6 +18227,7 @@
         "matricula": "2022213",
         "nome_completo": "SOPHIA NOGUEIRA BARROS LISBOA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "sophia_nogueira.mp3",
         "encoding": [
             -0.1301070898771286,
             0.008985566906630993,
@@ -18228,6 +18363,7 @@
         "matricula": "2022205",
         "nome_completo": "YSIS VITALIANO DIAS",
         "turma": "4º Ano - A",
+        "arquivo_audio": "ysis_vitaliano.mp3",
         "encoding": [
             -0.13060426712036133,
             0.007153504528105259,
@@ -18363,6 +18499,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "4º Ano - A",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -18498,6 +18635,7 @@
         "matricula": "20010304",
         "nome_completo": "ALICE FREITAS PEREIRA",
         "turma": "4º Ano - B",
+        "arquivo_audio": "alice_freitas.mp3",
         "encoding": [
             -0.07326877862215042,
             0.036603156477212906,
@@ -18633,6 +18771,7 @@
         "matricula": "20010440",
         "nome_completo": "ANA ISADORA SIMIÃO DA SILVA",
         "turma": "4º Ano - B",
+        "arquivo_audio": "ana_isadora.mp3",
         "encoding": [
             -0.13260550796985626,
             0.07324028015136719,
@@ -18768,6 +18907,7 @@
         "matricula": "2022082",
         "nome_completo": "ANA JULIA BARBOSA ANDRADE",
         "turma": "4º Ano - B",
+        "arquivo_audio": "ana_julia_barbosa.mp3",
         "encoding": [
             -0.11818454414606094,
             0.025051496922969818,
@@ -18903,6 +19043,7 @@
         "matricula": "2022202",
         "nome_completo": "ANA LIAH CELESTINO DA SILVA LIMA",
         "turma": "4º Ano - B",
+        "arquivo_audio": "ana_liah.mp3",
         "encoding": [
             -0.08791624754667282,
             0.06098754703998566,
@@ -19038,6 +19179,7 @@
         "matricula": "2022103",
         "nome_completo": "ANDREY MANOEL DO NASCIMENTO SILVA",
         "turma": "4º Ano - B",
+        "arquivo_audio": "andrey_manoel.mp3",
         "encoding": [
             -0.05482398346066475,
             0.06994257867336273,
@@ -19173,6 +19315,7 @@
         "matricula": "2022097",
         "nome_completo": "ARTHUR BORGES MENDES",
         "turma": "4º Ano - B",
+        "arquivo_audio": "arthur_borges.mp3",
         "encoding": [
             -0.15481194853782654,
             0.060275815427303314,
@@ -19308,6 +19451,7 @@
         "matricula": "2022189",
         "nome_completo": "ELIANO DA SILVA RODRIGUES FILHO",
         "turma": "4º Ano - B",
+        "arquivo_audio": "eliano_da_silva.mp3",
         "encoding": [
             -0.08759186416864395,
             0.08506214618682861,
@@ -19443,6 +19587,7 @@
         "matricula": "20010350",
         "nome_completo": "FRANCISCO ENZO RIBEIRO DA COSTA RODRIGUES",
         "turma": "4º Ano - B",
+        "arquivo_audio": "francisco_enzo.mp3",
         "encoding": [
             -0.08141352981328964,
             -0.0034278100356459618,
@@ -19578,6 +19723,7 @@
         "matricula": "2022177",
         "nome_completo": "HEITOR OLIVEIRA MATTAR",
         "turma": "4º Ano - B",
+        "arquivo_audio": "heitor_oliveira.mp3",
         "encoding": [
             -0.0714988186955452,
             0.08336403220891953,
@@ -19713,6 +19859,7 @@
         "matricula": "20010494",
         "nome_completo": "JOÃO MIGUEL DOMINGOS SILVANO",
         "turma": "4º Ano - B",
+        "arquivo_audio": "joao_miguel_domingos.mp3",
         "encoding": [
             -0.0787016749382019,
             0.05125689506530762,
@@ -19848,6 +19995,7 @@
         "matricula": "20210034",
         "nome_completo": "MARIA MELISSA FELIPE MOREIRA",
         "turma": "4º Ano - B",
+        "arquivo_audio": "maria_melissa.mp3",
         "encoding": [
             -0.0753694549202919,
             0.10825805366039276,
@@ -19983,6 +20131,7 @@
         "matricula": "20010340",
         "nome_completo": "MARIA SOFIA ROCHA DOS SANTOS",
         "turma": "4º Ano - B",
+        "arquivo_audio": "maria_sofia.mp3",
         "encoding": [
             -0.15173301100730896,
             0.110340915620327,
@@ -20118,6 +20267,7 @@
         "matricula": "2022015",
         "nome_completo": "MARINA RODRIGUES GOMES",
         "turma": "4º Ano - B",
+        "arquivo_audio": "marina_rodrigues.mp3",
         "encoding": [
             -0.08694092184305191,
             0.033357806503772736,
@@ -20253,6 +20403,7 @@
         "matricula": "20210020",
         "nome_completo": "NICOLAS TADEU OLIVEIRA SALES",
         "turma": "4º Ano - B",
+        "arquivo_audio": "nicolas_tadeu.mp3",
         "encoding": [
             -0.12418939918279648,
             0.008472202345728874,
@@ -20388,6 +20539,7 @@
         "matricula": "20010306",
         "nome_completo": "REBECA SOARES CÂNDIDO",
         "turma": "4º Ano - B",
+        "arquivo_audio": "rebeca_soares.mp3",
         "encoding": [
             -0.00016392511315643787,
             0.0767684280872345,
@@ -20523,6 +20675,7 @@
         "matricula": "2022029",
         "nome_completo": "TALISON GABRIEL RODRIGUES QUEIROZ",
         "turma": "4º Ano - B",
+        "arquivo_audio": "talison_gabriel.mp3",
         "encoding": [
             -0.13011857867240906,
             0.010360382497310638,
@@ -20658,6 +20811,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "4º Ano - B",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -20793,6 +20947,7 @@
         "matricula": "2022123",
         "nome_completo": "BIANCA VITÓRIA MATOS CAVALCANTE",
         "turma": "5º Ano - A",
+        "arquivo_audio": "bianca_vitoria.mp3",
         "encoding": [
             -0.149686798453331,
             0.07225427031517029,
@@ -20928,6 +21083,7 @@
         "matricula": "2022050",
         "nome_completo": "DAVI NUNES DE MACEDO",
         "turma": "5º Ano - A",
+        "arquivo_audio": "davi_nunes.mp3",
         "encoding": [
             -0.0750059261918068,
             0.007331487722694874,
@@ -21063,6 +21219,7 @@
         "matricula": "20010358",
         "nome_completo": "FERNANDO SILVERIO DA SILVA NETO",
         "turma": "5º Ano - A",
+        "arquivo_audio": "fernando_silverio.mp3",
         "encoding": [
             -0.12857474386692047,
             0.03508419916033745,
@@ -21198,6 +21355,7 @@
         "matricula": "2022349",
         "nome_completo": "HEITOR MONTEIRO BEZERRA",
         "turma": "5º Ano - A",
+        "arquivo_audio": "heitor_monteiro.mp3",
         "encoding": [
             -0.02540694922208786,
             -0.03364308923482895,
@@ -21333,6 +21491,7 @@
         "matricula": "2022161",
         "nome_completo": "HERBERT VIANA RIBEIRO DE OLIVEIRA",
         "turma": "5º Ano - A",
+        "arquivo_audio": "herbert_viana.mp3",
         "encoding": [
             -0.050752121955156326,
             0.024020787328481674,
@@ -21468,6 +21627,7 @@
         "matricula": "2022022",
         "nome_completo": "JOÃO MARCOS BRINDEIRO CARVALHO",
         "turma": "5º Ano - A",
+        "arquivo_audio": "joao_marcos.mp3",
         "encoding": [
             -0.18257015943527222,
             0.05294642224907875,
@@ -21603,6 +21763,7 @@
         "matricula": "20010224",
         "nome_completo": "KARINE DE FARIAS ARAUJO",
         "turma": "5º Ano - A",
+        "arquivo_audio": "karine_de_farias.mp3",
         "encoding": [
             -0.12089459598064423,
             0.02806367352604866,
@@ -21738,6 +21899,7 @@
         "matricula": "20010426",
         "nome_completo": "LARA SOPHIA OLIVEIRA MARCIANO",
         "turma": "5º Ano - A",
+        "arquivo_audio": "lara_sophia_oliveira.mp3",
         "encoding": [
             -0.13631588220596313,
             0.020868096500635147,
@@ -21873,6 +22035,7 @@
         "matricula": "2022055",
         "nome_completo": "MARIA LAURA RODRIGUES DOS SANTOS",
         "turma": "5º Ano - A",
+        "arquivo_audio": "maria_laura_rodrigues.mp3",
         "encoding": [
             -0.04627986624836922,
             0.06525878608226776,
@@ -22008,6 +22171,7 @@
         "matricula": "20010264",
         "nome_completo": "MARIA LUIZA MONTEIRO CAVALCANTE",
         "turma": "5º Ano - A",
+        "arquivo_audio": "maria_luiza.mp3",
         "encoding": [
             -0.048617955297231674,
             0.07897119224071503,
@@ -22143,6 +22307,7 @@
         "matricula": "20010415",
         "nome_completo": "MIGUEL BARRETO CASTRO",
         "turma": "5º Ano - A",
+        "arquivo_audio": "miguel_barreto.mp3",
         "encoding": [
             -0.05245981737971306,
             0.046266525983810425,
@@ -22278,6 +22443,7 @@
         "matricula": "20010348",
         "nome_completo": "RAFAELA MOURA NUNES DA SILVA",
         "turma": "5º Ano - A",
+        "arquivo_audio": "rafaela_moura.mp3",
         "encoding": [
             -0.06823292374610901,
             0.04187214374542236,
@@ -22413,6 +22579,7 @@
         "matricula": "2022417",
         "nome_completo": "SAMUEL CONRADO DA SILVA SANTOS",
         "turma": "5º Ano - A",
+        "arquivo_audio": "samuel_conrado.mp3",
         "encoding": [
             -0.12213815003633499,
             0.08554553240537643,
@@ -22548,6 +22715,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "5º Ano - A",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -22683,6 +22851,7 @@
         "matricula": "2022291",
         "nome_completo": "ANA JULIA VIANA COSTA",
         "turma": "5º Ano - B",
+        "arquivo_audio": "ana_julia_viana.mp3",
         "encoding": [
             -0.11637271195650101,
             0.013711143285036087,
@@ -22818,6 +22987,7 @@
         "matricula": "20010244",
         "nome_completo": "ANDERSON ARTUR LIMA E SILVA FILHO",
         "turma": "5º Ano - B",
+        "arquivo_audio": "anderson_artur.mp3",
         "encoding": [
             -0.112528495490551,
             0.08533482998609543,
@@ -22953,6 +23123,7 @@
         "matricula": "20010475",
         "nome_completo": "ARTHUR FREIRE MOREIRA",
         "turma": "5º Ano - B",
+        "arquivo_audio": "arthur_freire.mp3",
         "encoding": [
             -0.13723637163639069,
             0.023627836257219315,
@@ -23088,6 +23259,7 @@
         "matricula": "2022222",
         "nome_completo": "DAVI LORENZO LIMA BRITO",
         "turma": "5º Ano - B",
+        "arquivo_audio": "davi_lorenzo.mp3",
         "encoding": [
             -0.13408532738685608,
             0.02689967304468155,
@@ -23223,6 +23395,7 @@
         "matricula": "2022224",
         "nome_completo": "FELIPE QUEIROZ ARAGÃO",
         "turma": "5º Ano - B",
+        "arquivo_audio": "felipe_queiroz.mp3",
         "encoding": [
             -0.0987684354186058,
             0.09415176510810852,
@@ -23358,6 +23531,7 @@
         "matricula": "20010290",
         "nome_completo": "FRANCISCO JAMISSON SILVANO MENDES",
         "turma": "5º Ano - B",
+        "arquivo_audio": "francisco_jamisson.mp3",
         "encoding": [
             -0.16290068626403809,
             -0.01166700478643179,
@@ -23493,6 +23667,7 @@
         "matricula": "20010285",
         "nome_completo": "GABRIEL PEREIRA GOMES",
         "turma": "5º Ano - B",
+        "arquivo_audio": "gabriel_pereira.mp3",
         "encoding": [
             -0.15128925442695618,
             0.054786454886198044,
@@ -23628,6 +23803,7 @@
         "matricula": "20010325",
         "nome_completo": "ISABELLA DA SILVA RAMOS",
         "turma": "5º Ano - B",
+        "arquivo_audio": "isabella_da_silva.mp3",
         "encoding": [
             -0.04117245972156525,
             0.01084082666784525,
@@ -23763,6 +23939,7 @@
         "matricula": "20010204",
         "nome_completo": "ISADORA MARIA LEITÃO DO CARMO",
         "turma": "5º Ano - B",
+        "arquivo_audio": "isadora_maria.mp3",
         "encoding": [
             -0.07744884490966797,
             0.130851149559021,
@@ -23898,6 +24075,7 @@
         "matricula": "20010268",
         "nome_completo": "JOSE ABRÃO GONÇALVES LIMA",
         "turma": "5º Ano - B",
+        "arquivo_audio": "jose_abrao.mp3",
         "encoding": [
             -0.0814928263425827,
             0.022419698536396027,
@@ -24033,6 +24211,7 @@
         "matricula": "20010341",
         "nome_completo": "LUIZ MIGUEL MENDES DE ARAÚJO",
         "turma": "5º Ano - B",
+        "arquivo_audio": "luiz_miguel.mp3",
         "encoding": [
             -0.0889144316315651,
             0.0995497852563858,
@@ -24168,6 +24347,7 @@
         "matricula": "2022203",
         "nome_completo": "MAGDIEL DOS ANJOS MONTEIRO",
         "turma": "5º Ano - B",
+        "arquivo_audio": "magdiel_dos_anjos.mp3",
         "encoding": [
             -0.13336877524852753,
             0.044854942709207535,
@@ -24303,6 +24483,7 @@
         "matricula": "2022095",
         "nome_completo": "MARIA ISADORA FERREIRA RODRIGUES",
         "turma": "5º Ano - B",
+        "arquivo_audio": "maria_isadora_ferreira.mp3",
         "encoding": [
             -0.10335391759872437,
             0.03265304118394852,
@@ -24438,6 +24619,7 @@
         "matricula": "2022007",
         "nome_completo": "PEDRO CHRYSTIAN DA ROCHA DE FREITAS",
         "turma": "5º Ano - B",
+        "arquivo_audio": "pedro_chrystian.mp3",
         "encoding": [
             -0.15312200784683228,
             -0.033722974359989166,
@@ -24573,6 +24755,7 @@
         "matricula": "2022317",
         "nome_completo": "PEDRO LUCAS BORGES DE CASTRO ALBANO",
         "turma": "5º Ano - B",
+        "arquivo_audio": "pedro_lucas_borges.mp3",
         "encoding": [
             -0.14638784527778625,
             0.0035275453701615334,
@@ -24708,6 +24891,7 @@
         "matricula": "20210023",
         "nome_completo": "THALISSA MELL SILVA SOARES",
         "turma": "5º Ano - B",
+        "arquivo_audio": "thalissa_mell.mp3",
         "encoding": [
             -0.20112138986587524,
             0.0005448469892144203,
@@ -24843,6 +25027,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "5º Ano - B",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -24978,6 +25163,7 @@
         "matricula": "2022389",
         "nome_completo": "ANA CECILIA CUSTÓDIO OLIVEIRA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "ana_cecilia_custodio.mp3",
         "encoding": [
             -0.14058299362659454,
             0.07026197761297226,
@@ -25113,6 +25299,7 @@
         "matricula": "20210013",
         "nome_completo": "ANA SOFIA ANTUNES MARTINS",
         "turma": "6º Ano - A",
+        "arquivo_audio": "ana_sofia.mp3",
         "encoding": [
             -0.17225010693073273,
             -0.0020522521808743477,
@@ -25248,6 +25435,7 @@
         "matricula": "2022388",
         "nome_completo": "ANA SOPHIA MONTEIRO DAMASCENO",
         "turma": "6º Ano - A",
+        "arquivo_audio": "ana_sophia.mp3",
         "encoding": [
             -0.0949743464589119,
             0.058966293931007385,
@@ -25383,6 +25571,7 @@
         "matricula": "2016175",
         "nome_completo": "ANNE CECILLE RAMOS MACIEL",
         "turma": "6º Ano - A",
+        "arquivo_audio": "anne_cecille.mp3",
         "encoding": [
             -0.005043354816734791,
             0.08038832247257233,
@@ -25518,6 +25707,7 @@
         "matricula": "2022331",
         "nome_completo": "ARTHUR BRAGA SEVERIANO",
         "turma": "6º Ano - A",
+        "arquivo_audio": "arthur_braga.mp3",
         "encoding": [
             -0.17425674200057983,
             0.08784996718168259,
@@ -25653,6 +25843,7 @@
         "matricula": "2022398",
         "nome_completo": "ARTHUR DE FREITAS LIMA MONTEIRO",
         "turma": "6º Ano - A",
+        "arquivo_audio": "arthur_de_freitas.mp3",
         "encoding": [
             -0.042211249470710754,
             0.09692147374153137,
@@ -25788,6 +25979,7 @@
         "matricula": "2016118",
         "nome_completo": "CHRISTIAN TORRES DOS SANTOS",
         "turma": "6º Ano - A",
+        "arquivo_audio": "christian_torres.mp3",
         "encoding": [
             -0.13077817857265472,
             -0.014989487826824188,
@@ -25923,6 +26115,7 @@
         "matricula": "2016134",
         "nome_completo": "CLAUDIO AUGUSTO TEÓFILO NETO",
         "turma": "6º Ano - A",
+        "arquivo_audio": "claudio_augusto.mp3",
         "encoding": [
             -0.1275051087141037,
             0.04895421117544174,
@@ -26058,6 +26251,7 @@
         "matricula": "2022414",
         "nome_completo": "DAVI LUCAS COSTA LOPES",
         "turma": "6º Ano - A",
+        "arquivo_audio": "davi_lucas.mp3",
         "encoding": [
             -0.08751218765974045,
             0.0405445322394371,
@@ -26193,6 +26387,7 @@
         "matricula": "20010431",
         "nome_completo": "EMANUELA GOMES DA SILVA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "emanuela_gomes.mp3",
         "encoding": [
             -0.11152593046426773,
             0.006827878765761852,
@@ -26328,6 +26523,7 @@
         "matricula": "2016124",
         "nome_completo": "FRANCISCO JOSE SILVA DE MENESES NETO",
         "turma": "6º Ano - A",
+        "arquivo_audio": "francisco_jose.mp3",
         "encoding": [
             -0.2048557996749878,
             0.019007433205842972,
@@ -26463,6 +26659,7 @@
         "matricula": "20010201",
         "nome_completo": "FRANCISCO MARIO GONDIM DE FREITAS",
         "turma": "6º Ano - A",
+        "arquivo_audio": "francisco_mario.mp3",
         "encoding": [
             -0.1697540432214737,
             -0.03549537807703018,
@@ -26598,6 +26795,7 @@
         "matricula": "20210007",
         "nome_completo": "HELOISE DOS SANTOS LIMA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "heloise_dos_santos.mp3",
         "encoding": [
             -0.1594344675540924,
             0.05195575952529907,
@@ -26733,6 +26931,7 @@
         "matricula": "2022352",
         "nome_completo": "ISAAC SILVA FREITAS",
         "turma": "6º Ano - A",
+        "arquivo_audio": "isaac_silva.mp3",
         "encoding": [
             -0.09022675454616547,
             0.037771835923194885,
@@ -26868,6 +27067,7 @@
         "matricula": "2022366",
         "nome_completo": "JOÃO DAVI ALMEIDA LIMA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "joao_davi.mp3",
         "encoding": [
             -0.09891966730356216,
             0.036674872040748596,
@@ -27003,6 +27203,7 @@
         "matricula": "2022405",
         "nome_completo": "JOSE ADRYAN ALVES DA SILVA COSTA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "jose_adryan.mp3",
         "encoding": [
             -0.17282256484031677,
             0.006200113333761692,
@@ -27138,6 +27339,7 @@
         "matricula": "20010319",
         "nome_completo": "KAIQUE ARAÚJO MIRES",
         "turma": "6º Ano - A",
+        "arquivo_audio": "kaique_araujo.mp3",
         "encoding": [
             -0.11364442855119705,
             0.005456088110804558,
@@ -27273,6 +27475,7 @@
         "matricula": "20010252",
         "nome_completo": "KAREN SILVA COSTA NUNES",
         "turma": "6º Ano - A",
+        "arquivo_audio": "karen_silva.mp3",
         "encoding": [
             -0.1430625021457672,
             0.12985076010227203,
@@ -27408,6 +27611,7 @@
         "matricula": "2016116",
         "nome_completo": "KAUA DE MELO ALVES",
         "turma": "6º Ano - A",
+        "arquivo_audio": "kaua_de_melo.mp3",
         "encoding": [
             -0.1315949261188507,
             0.06660614162683487,
@@ -27543,6 +27747,7 @@
         "matricula": "2016144",
         "nome_completo": "LUIZ RICARDO PEREIRA DE SOUZA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "luiz_ricardo.mp3",
         "encoding": [
             0.005854949355125427,
             0.06552760303020477,
@@ -27678,6 +27883,7 @@
         "matricula": "2022356",
         "nome_completo": "MARIA CECILIA QUEIROZ MARTINS",
         "turma": "6º Ano - A",
+        "arquivo_audio": "maria_cecilia_queiroz_martins.mp3",
         "encoding": [
             -0.09256847947835922,
             0.05788677930831909,
@@ -27813,6 +28019,7 @@
         "matricula": "2022249",
         "nome_completo": "MARIA GABRIELA MONTEIRO FREIRE",
         "turma": "6º Ano - A",
+        "arquivo_audio": "maria_gabriela.mp3",
         "encoding": [
             -0.043727532029151917,
             0.040969524532556534,
@@ -27948,6 +28155,7 @@
         "matricula": "2016143",
         "nome_completo": "MARIANA ROCHA JORGE DE SOUSA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "mariana_rocha.mp3",
         "encoding": [
             -0.05761995166540146,
             0.04151791334152222,
@@ -28083,6 +28291,7 @@
         "matricula": "20010337",
         "nome_completo": "SOFIA BRANDÃO FELIPE",
         "turma": "6º Ano - A",
+        "arquivo_audio": "sofia_brandao.mp3",
         "encoding": [
             -0.08516349643468857,
             0.04216291382908821,
@@ -28218,6 +28427,7 @@
         "matricula": "20010311",
         "nome_completo": "VALENTINA UCHÔA COUTINHO",
         "turma": "6º Ano - A",
+        "arquivo_audio": "valentina_uchoa.mp3",
         "encoding": [
             -0.14513321220874786,
             -0.0024535497650504112,
@@ -28353,6 +28563,7 @@
         "matricula": "2016189",
         "nome_completo": "YCARO DOS SANTOS DE CASTRO",
         "turma": "6º Ano - A",
+        "arquivo_audio": "ycaro_dos_santos.mp3",
         "encoding": [
             -0.07670783251523972,
             0.05051843076944351,
@@ -28488,6 +28699,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "6º Ano - A",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -28623,6 +28835,7 @@
         "matricula": "2022396",
         "nome_completo": "ALAN NAZÁRIO RIBEIRO",
         "turma": "6º Ano - B",
+        "arquivo_audio": "alan_nazario.mp3",
         "encoding": [
             -0.08572563529014587,
             0.03243991732597351,
@@ -28758,6 +28971,7 @@
         "matricula": "2016221",
         "nome_completo": "AMANDA MIKAELLE GOMES CARDOSO",
         "turma": "6º Ano - B",
+        "arquivo_audio": "amanda_mikaelle.mp3",
         "encoding": [
             -0.14758634567260742,
             0.043457694351673126,
@@ -28893,6 +29107,7 @@
         "matricula": "2022383",
         "nome_completo": "ANA GLORIA COSTA GERMANO",
         "turma": "6º Ano - B",
+        "arquivo_audio": "ana_gloria.mp3",
         "encoding": [
             -0.12320837378501892,
             0.0014781998470425606,
@@ -29028,6 +29243,7 @@
         "matricula": "2022384",
         "nome_completo": "ANA MARIA COSTA GERMANO",
         "turma": "6º Ano - B",
+        "arquivo_audio": "ana_maria.mp3",
         "encoding": [
             -0.15982554852962494,
             0.05219500511884689,
@@ -29163,6 +29379,7 @@
         "matricula": "2016146",
         "nome_completo": "ANTONIA TATYELLEN DA SILVA FELIPE",
         "turma": "6º Ano - B",
+        "arquivo_audio": "antonia_tatyellen.mp3",
         "encoding": [
             -0.11580625921487808,
             0.07969361543655396,
@@ -29298,6 +29515,7 @@
         "matricula": "2022168",
         "nome_completo": "ARTHUR ATANÁZIO DOS SANTOS SOUZA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "arthur_atanazio.mp3",
         "encoding": [
             -0.12002737820148468,
             -0.016971079632639885,
@@ -29433,6 +29651,7 @@
         "matricula": "2022217",
         "nome_completo": "BERNARDO SANTOS REIS",
         "turma": "6º Ano - B",
+        "arquivo_audio": "bernardo_santos.mp3",
         "encoding": [
             -0.09418702870607376,
             -0.015484722331166267,
@@ -29568,6 +29787,7 @@
         "matricula": "20010226",
         "nome_completo": "EDUARDO DO VALE GUEDES",
         "turma": "6º Ano - B",
+        "arquivo_audio": "eduardo_do_vale.mp3",
         "encoding": [
             -0.10762186348438263,
             0.03420984745025635,
@@ -29703,6 +29923,7 @@
         "matricula": "2022037",
         "nome_completo": "GABRIEL CARVALHO GAMA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "gabriel_carvalho.mp3",
         "encoding": [
             -0.19405561685562134,
             0.01702287048101425,
@@ -29838,6 +30059,7 @@
         "matricula": "2022128",
         "nome_completo": "HELOÁ OLIVEIRA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "heloa_oliveira.mp3",
         "encoding": [
             -0.10991167277097702,
             0.09170351922512054,
@@ -29973,6 +30195,7 @@
         "matricula": "2022375",
         "nome_completo": "HELOISA QUEIROZ DE SOUSA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "heloisa_queiroz.mp3",
         "encoding": [
             -0.10665656626224518,
             0.03340565413236618,
@@ -30108,6 +30331,7 @@
         "matricula": "2022377",
         "nome_completo": "JOÃO MIGUEL FERREIRA SALES",
         "turma": "6º Ano - B",
+        "arquivo_audio": "joao_miguel_ferreira.mp3",
         "encoding": [
             -0.17094753682613373,
             -0.0005609728395938873,
@@ -30243,6 +30467,7 @@
         "matricula": "2022013",
         "nome_completo": "JOAO PEDRO PROCOPIO",
         "turma": "6º Ano - B",
+        "arquivo_audio": "joao_pedro_procopio.mp3",
         "encoding": [
             -0.09827045351266861,
             0.046016108244657516,
@@ -30378,6 +30603,7 @@
         "matricula": "2022368",
         "nome_completo": "LEVI BEZERRA DE OLIVEIRA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "levi_bezerra.mp3",
         "encoding": [
             -0.08074359595775604,
             0.10918745398521423,
@@ -30513,6 +30739,7 @@
         "matricula": "20010223",
         "nome_completo": "MARIA ISABEL ROCHA CAETANO",
         "turma": "6º Ano - B",
+        "arquivo_audio": "maria_isabel.mp3",
         "encoding": [
             -0.13011780381202698,
             -0.036372218281030655,
@@ -30648,6 +30875,7 @@
         "matricula": "2022011",
         "nome_completo": "MARIANY SATURNINO XAVIER",
         "turma": "6º Ano - B",
+        "arquivo_audio": "mariany_saturnino.mp3",
         "encoding": [
             -0.13523198664188385,
             0.029520027339458466,
@@ -30783,6 +31011,7 @@
         "matricula": "2022125",
         "nome_completo": "MICHELLY FABRIS MARANHÃO",
         "turma": "6º Ano - B",
+        "arquivo_audio": "michelly_fabris.mp3",
         "encoding": [
             -0.11975501477718353,
             0.0015970440581440926,
@@ -30918,6 +31147,7 @@
         "matricula": "2016149",
         "nome_completo": "PEDRO ARTHUR DA SILVA MARÇAL",
         "turma": "6º Ano - B",
+        "arquivo_audio": "pedro_arthur_da_silva.mp3",
         "encoding": [
             -0.11751467734575272,
             0.09558925032615662,
@@ -31053,6 +31283,7 @@
         "matricula": "2022227",
         "nome_completo": "PEDRO ARTHUR LIMA DE OLIVEIRA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "pedro_arthur_lima.mp3",
         "encoding": [
             -0.0878073051571846,
             0.09133180230855942,
@@ -31188,6 +31419,7 @@
         "matricula": "20010242",
         "nome_completo": "PEDRO IGOR DE ALMEIDA SOUSA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "pedro_igor.mp3",
         "encoding": [
             -0.08145312964916229,
             0.003340139053761959,
@@ -31323,6 +31555,7 @@
         "matricula": "20210009",
         "nome_completo": "PEDRO LUCCA MEDEIROS MARQUES",
         "turma": "6º Ano - B",
+        "arquivo_audio": "pedro_lucca.mp3",
         "encoding": [
             -0.13303501904010773,
             0.012469282373785973,
@@ -31458,6 +31691,7 @@
         "matricula": "20010233",
         "nome_completo": "RUAN CARLOS ROCHA RODRIGUES",
         "turma": "6º Ano - B",
+        "arquivo_audio": "ruan_carlos.mp3",
         "encoding": [
             -0.1337229311466217,
             -0.0066073620691895485,
@@ -31593,6 +31827,7 @@
         "matricula": "2022290",
         "nome_completo": "WENDELL GABRIEL DA SILVA VIEIRA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "wendell_gabriel.mp3",
         "encoding": [
             -0.06122959777712822,
             0.07627885043621063,
@@ -31728,6 +31963,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "6º Ano - B",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -31863,6 +32099,7 @@
         "matricula": "2016156",
         "nome_completo": "ANA CECILIA SIMIÃO DA SILVA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "ana_cecilia_simiao.mp3",
         "encoding": [
             -0.1455964595079422,
             0.05379592999815941,
@@ -31998,6 +32235,7 @@
         "matricula": "2022407",
         "nome_completo": "ANNA HELOISA SILVA FERNANDES",
         "turma": "7º Ano - U",
+        "arquivo_audio": "anna_heloisa.mp3",
         "encoding": [
             -0.18687710165977478,
             0.0862877294421196,
@@ -32133,6 +32371,7 @@
         "matricula": "20010427",
         "nome_completo": "ARTHUR OLIVEIRA FRANCO DE LIMA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "arthur_oliveira.mp3",
         "encoding": [
             -0.11195620894432068,
             0.0348006933927536,
@@ -32268,6 +32507,7 @@
         "matricula": "2022115",
         "nome_completo": "EMILLY VITORIA DO NASCIMENTO MARINHO",
         "turma": "7º Ano - U",
+        "arquivo_audio": "emilly_vitoria.mp3",
         "encoding": [
             -0.12477153539657593,
             0.09121659398078918,
@@ -32403,6 +32643,7 @@
         "matricula": "2016152",
         "nome_completo": "FRANCISCO LINDOLFO ALVES DA SILVA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "francisco_lindolfo.mp3",
         "encoding": [
             -0.08991453796625137,
             0.09832249581813812,
@@ -32538,6 +32779,7 @@
         "matricula": "2022162",
         "nome_completo": "HEITOR RODRIGUES COSTA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "heitor_rodrigues.mp3",
         "encoding": [
             -0.18673983216285706,
             0.055333517491817474,
@@ -32673,6 +32915,7 @@
         "matricula": "2022272",
         "nome_completo": "HELANO SARMENTO PIRES",
         "turma": "7º Ano - U",
+        "arquivo_audio": "helano_sarmento.mp3",
         "encoding": [
             -0.1124119684100151,
             0.06885317713022232,
@@ -32808,6 +33051,7 @@
         "matricula": "2016180",
         "nome_completo": "IAN CACAU FREIRE CASTRO",
         "turma": "7º Ano - U",
+        "arquivo_audio": "ian_cacau.mp3",
         "encoding": [
             -0.09954933822154999,
             0.05117180943489075,
@@ -32943,6 +33187,7 @@
         "matricula": "2016174",
         "nome_completo": "JOAO RICARDO RIBEIRO RAMIRES",
         "turma": "7º Ano - U",
+        "arquivo_audio": "joao_ricardo.mp3",
         "encoding": [
             -0.02974669262766838,
             0.06184367090463638,
@@ -33078,6 +33323,7 @@
         "matricula": "2022014",
         "nome_completo": "LUISA AZEVEDO DE FREITAS",
         "turma": "7º Ano - U",
+        "arquivo_audio": "luisa_azevedo.mp3",
         "encoding": [
             -0.19919002056121826,
             0.08384037762880325,
@@ -33213,6 +33459,7 @@
         "matricula": "2016017",
         "nome_completo": "MARIA JULIA FERNANDES DE SOUSA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "maria_julia_fernandes.mp3",
         "encoding": [
             -0.06184512376785278,
             0.09530635923147202,
@@ -33348,6 +33595,7 @@
         "matricula": "2022270",
         "nome_completo": "MARIA VITORIA SOUSA PINHEIRO",
         "turma": "7º Ano - U",
+        "arquivo_audio": "maria_vitoria.mp3",
         "encoding": [
             -0.14945648610591888,
             0.06061538681387901,
@@ -33483,6 +33731,7 @@
         "matricula": "2022190",
         "nome_completo": "MELISSA GIOVANNA BORGES DE QUEIROZ",
         "turma": "7º Ano - U",
+        "arquivo_audio": "melissa_giovanna.mp3",
         "encoding": [
             -0.1317221075296402,
             -0.01153100747615099,
@@ -33618,6 +33867,7 @@
         "matricula": "2016151",
         "nome_completo": "NATHAN OLIVEIRA DE CARVALHO",
         "turma": "7º Ano - U",
+        "arquivo_audio": "nathan_oliveira.mp3",
         "encoding": [
             -0.07446949928998947,
             0.08467398583889008,
@@ -33753,6 +34003,7 @@
         "matricula": "2022284",
         "nome_completo": "PEDRO ALEX LIMA DA SILVA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "pedro_alex.mp3",
         "encoding": [
             -0.11122441291809082,
             -0.009433301165699959,
@@ -33888,6 +34139,7 @@
         "matricula": "2016022",
         "nome_completo": "PEDRO EDUARDO MONTEIRO MIRANDA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "pedro_eduardo.mp3",
         "encoding": [
             -0.13548532128334045,
             0.1259671002626419,
@@ -34023,6 +34275,7 @@
         "matricula": "2016019",
         "nome_completo": "SAMANTA FREITAS ADRIANO",
         "turma": "7º Ano - U",
+        "arquivo_audio": "samanta_freitas.mp3",
         "encoding": [
             -0.1010531410574913,
             0.04990433529019356,
@@ -34158,6 +34411,7 @@
         "matricula": "2016084",
         "nome_completo": "SAMUEL GOMES DE LIMA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "samuel_gomes.mp3",
         "encoding": [
             -0.17865505814552307,
             0.08435922861099243,
@@ -34293,6 +34547,7 @@
         "matricula": "2016166",
         "nome_completo": "SAMUEL RODRIGUES FELIPE DE SOUSA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "samuel_rodrigues.mp3",
         "encoding": [
             -0.11003827303647995,
             0.07026834040880203,
@@ -34428,6 +34683,7 @@
         "matricula": "2016038",
         "nome_completo": "WILLIAM MIGUEL RIBEIRO COSTA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "william_miguel.mp3",
         "encoding": [
             -0.08320270478725433,
             -0.0005925418809056282,
@@ -34563,6 +34819,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "7º Ano - U",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -34698,6 +34955,7 @@
         "matricula": "2015068",
         "nome_completo": "ANGELINA EUFRASIO LIMA MIRANDA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "angelina_eufrasio.mp3",
         "encoding": [
             -0.13239532709121704,
             0.03762078285217285,
@@ -34833,6 +35091,7 @@
         "matricula": "20010399",
         "nome_completo": "ANNA CARLA PATRICIA FLORIANO RIOS",
         "turma": "8º Ano - A",
+        "arquivo_audio": "anna_carla.mp3",
         "encoding": [
             -0.12778225541114807,
             0.055276114493608475,
@@ -34968,6 +35227,7 @@
         "matricula": "2016182",
         "nome_completo": "ELISA CAVALCANTE CIRIACO",
         "turma": "8º Ano - A",
+        "arquivo_audio": "elisa_cavalcante.mp3",
         "encoding": [
             -0.1538376659154892,
             0.007512602023780346,
@@ -35103,6 +35363,7 @@
         "matricula": "2022357",
         "nome_completo": "ISABELLA SAMPAIO DE CASTRO",
         "turma": "8º Ano - A",
+        "arquivo_audio": "isabella_sampaio.mp3",
         "encoding": [
             -0.08482246845960617,
             0.006787688471376896,
@@ -35238,6 +35499,7 @@
         "matricula": "20010388",
         "nome_completo": "JOAO LUCAS SANTOS DA SILVA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "joao_lucas_santos.mp3",
         "encoding": [
             -0.11235039681196213,
             0.04366621747612953,
@@ -35373,6 +35635,7 @@
         "matricula": "2022367",
         "nome_completo": "JOÃO RAFAEL ALMEIDA LIMA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "joao_rafael.mp3",
         "encoding": [
             -0.01532585546374321,
             0.08289390802383423,
@@ -35508,6 +35771,7 @@
         "matricula": "2015037",
         "nome_completo": "LARA LAIS RODRIGUES MENDES",
         "turma": "8º Ano - A",
+        "arquivo_audio": "lara_lais.mp3",
         "encoding": [
             -0.06529394537210464,
             0.041225090622901917,
@@ -35643,6 +35907,7 @@
         "matricula": "2015049",
         "nome_completo": "LAYSA LIMA DA SILVA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "laysa_lima.mp3",
         "encoding": [
             -0.1253177970647812,
             -0.02147918939590454,
@@ -35778,6 +36043,7 @@
         "matricula": "2022166",
         "nome_completo": "MARIA AMÁLIA SINÉSIO DE CARVALHO",
         "turma": "8º Ano - A",
+        "arquivo_audio": "maria_amalia.mp3",
         "encoding": [
             -0.08230438828468323,
             0.06806572526693344,
@@ -35913,6 +36179,7 @@
         "matricula": "2022056",
         "nome_completo": "MARIA CECILIA ALVES DE LIMA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "maria_cecilia_alves.mp3",
         "encoding": [
             -0.10217946767807007,
             0.03592962026596069,
@@ -36048,6 +36315,7 @@
         "matricula": "2016009",
         "nome_completo": "MARIA HELOISA BENTO CASTRO DE QUEIROZ",
         "turma": "8º Ano - A",
+        "arquivo_audio": "maria_heloisa_bento.mp3",
         "encoding": [
             -0.0960254967212677,
             0.026563066989183426,
@@ -36183,6 +36451,7 @@
         "matricula": "2015058",
         "nome_completo": "MARIA HELOISA SOUZA DA COSTA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "maria_heloisa_souza.mp3",
         "encoding": [
             -0.14696772396564484,
             0.12240511924028397,
@@ -36318,6 +36587,7 @@
         "matricula": "2022239",
         "nome_completo": "MARIA ROCHA FARIAS",
         "turma": "8º Ano - A",
+        "arquivo_audio": "maria_rocha.mp3",
         "encoding": [
             -0.1771814227104187,
             0.06753649562597275,
@@ -36453,6 +36723,7 @@
         "matricula": "2016113",
         "nome_completo": "NICOLAS MIRANDA FELISBERTO",
         "turma": "8º Ano - A",
+        "arquivo_audio": "nicolas_miranda.mp3",
         "encoding": [
             -0.051561567932367325,
             0.04482070356607437,
@@ -36588,6 +36859,7 @@
         "matricula": "2016092",
         "nome_completo": "PEDRO ARTHUR MIRANDA NOGUEIRA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "pedro_arthur_miranda.mp3",
         "encoding": [
             -0.08818528056144714,
             0.10365008562803268,
@@ -36723,6 +36995,7 @@
         "matricula": "2022164",
         "nome_completo": "PEDRO PAULO FONTENELE",
         "turma": "8º Ano - A",
+        "arquivo_audio": "pedro_paulo.mp3",
         "encoding": [
             -0.13914312422275543,
             0.09559483826160431,
@@ -36858,6 +37131,7 @@
         "matricula": "2022223",
         "nome_completo": "SOFIA QUEIROZ ARAGÃO",
         "turma": "8º Ano - A",
+        "arquivo_audio": "sofia_queiroz.mp3",
         "encoding": [
             -0.11526164412498474,
             0.05369719862937927,
@@ -36993,6 +37267,7 @@
         "matricula": "2022206",
         "nome_completo": "THAINA COSTA CARVALHO",
         "turma": "8º Ano - A",
+        "arquivo_audio": "thaina_costa.mp3",
         "encoding": [
             -0.10764172673225403,
             0.07359451055526733,
@@ -37128,6 +37403,7 @@
         "matricula": "2016077",
         "nome_completo": "VITOR LUCAS FERNANDES SILVA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "vitor_lucas.mp3",
         "encoding": [
             -0.07893534004688263,
             -0.008497464470565319,
@@ -37263,6 +37539,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "8º Ano - A",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -37398,6 +37675,7 @@
         "matricula": "2022192",
         "nome_completo": "DULCE MARIA RODRIGUES SILVA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "dulce_maria_rodrigues.mp3",
         "encoding": [
             -0.12621471285820007,
             0.052033234387636185,
@@ -37533,6 +37811,7 @@
         "matricula": "2022216",
         "nome_completo": "FERNANDA LOUREIRO GALACCIO",
         "turma": "8º Ano - B",
+        "arquivo_audio": "fernanda_loureiro.mp3",
         "encoding": [
             -0.12895488739013672,
             -0.0003431066870689392,
@@ -37668,6 +37947,7 @@
         "matricula": "2022230",
         "nome_completo": "FERNANDO ALVES AUGUSTO",
         "turma": "8º Ano - B",
+        "arquivo_audio": "fernando_alves.mp3",
         "encoding": [
             -0.12103746831417084,
             0.14103883504867554,
@@ -37803,6 +38083,7 @@
         "matricula": "2016036",
         "nome_completo": "GUILHERME RIBEIRO DE SOUSA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "guilherme_ribeiro.mp3",
         "encoding": [
             -0.1097504124045372,
             0.12193185836076736,
@@ -37938,6 +38219,7 @@
         "matricula": "2022171",
         "nome_completo": "GUSTAVO LIMA LOPES QUEIROZ",
         "turma": "8º Ano - B",
+        "arquivo_audio": "gustavo_lima.mp3",
         "encoding": [
             -0.15132100880146027,
             0.028914961963891983,
@@ -38073,6 +38355,7 @@
         "matricula": "2022182",
         "nome_completo": "JAZIEL LUIZ MARTINS ALMEIDA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "jaziel_luiz.mp3",
         "encoding": [
             -0.18758554756641388,
             0.025699932128190994,
@@ -38208,6 +38491,7 @@
         "matricula": "2015008",
         "nome_completo": "JOAO OTAVIO NAZÁRIO DA SILVA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "joao_otavio.mp3",
         "encoding": [
             -0.141061931848526,
             0.07760922610759735,
@@ -38343,6 +38627,7 @@
         "matricula": "2022051",
         "nome_completo": "JOAO VICTOR NUNES DE MACEDO",
         "turma": "8º Ano - B",
+        "arquivo_audio": "joao_victor.mp3",
         "encoding": [
             -0.07227621227502823,
             0.10081680864095688,
@@ -38478,6 +38763,7 @@
         "matricula": "2022143",
         "nome_completo": "LIVIA DA ROCHA LIMA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "livia_da_rocha.mp3",
         "encoding": [
             -0.1484522968530655,
             0.0986301377415657,
@@ -38613,6 +38899,7 @@
         "matricula": "2022409",
         "nome_completo": "MARIA ISABELLE DE SOUZA ALENCAR",
         "turma": "8º Ano - B",
+        "arquivo_audio": "maria_isabelle.mp3",
         "encoding": [
             -0.07873798161745071,
             0.008909598924219608,
@@ -38748,6 +39035,7 @@
         "matricula": "2016033",
         "nome_completo": "MARIANA CARVALHO DA PAZ FERREIRA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "mariana_carvalho.mp3",
         "encoding": [
             -0.08766522258520126,
             0.06648508459329605,
@@ -38883,6 +39171,7 @@
         "matricula": "20010397",
         "nome_completo": "NANDA MARIA ROCHA DE CASTRO",
         "turma": "8º Ano - B",
+        "arquivo_audio": "nanda_maria.mp3",
         "encoding": [
             -0.10304928570985794,
             0.01661495491862297,
@@ -39018,6 +39307,7 @@
         "matricula": "915",
         "nome_completo": "PAULO MONTEIRO TEOFILO FILHO",
         "turma": "8º Ano - B",
+        "arquivo_audio": "paulo_monteiro.mp3",
         "encoding": [
             -0.09807359427213669,
             0.05234720557928085,
@@ -39153,6 +39443,7 @@
         "matricula": "20010374",
         "nome_completo": "PEDRO LUCAS SILVA SOUSA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "pedro_lucas_silva.mp3",
         "encoding": [
             -0.10307342559099197,
             0.11021457612514496,
@@ -39288,6 +39579,7 @@
         "matricula": "2022211",
         "nome_completo": "PRISCILA AGHATA DIOGO SOUZA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "priscila_aghata.mp3",
         "encoding": [
             -0.11484985053539276,
             0.07545763999223709,
@@ -39423,6 +39715,7 @@
         "matricula": "2015011",
         "nome_completo": "RIANA DE MIRANDA CASTRO",
         "turma": "8º Ano - B",
+        "arquivo_audio": "riana_de_miranda.mp3",
         "encoding": [
             -0.11112724989652634,
             0.13304170966148376,
@@ -39558,6 +39851,7 @@
         "matricula": "2022327",
         "nome_completo": "RONALD MANOEL DO NASCIMENTO PONTES",
         "turma": "8º Ano - B",
+        "arquivo_audio": "ronald_manoel.mp3",
         "encoding": [
             -0.08644634485244751,
             0.1453680843114853,
@@ -39693,6 +39987,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "8º Ano - B",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,
@@ -39828,6 +40123,7 @@
         "matricula": "20010447",
         "nome_completo": "ANA LUCIA RIBEIRO DE OLIVEIRA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "ana_lucia.mp3",
         "encoding": [
             -0.09280857443809509,
             0.04914749786257744,
@@ -39963,6 +40259,7 @@
         "matricula": "2022296",
         "nome_completo": "ANA VITÓRIA MARQUES XEREZ",
         "turma": "9º Ano - U",
+        "arquivo_audio": "ana_vitoria_marques.mp3",
         "encoding": [
             -0.08283902704715729,
             0.07692716270685196,
@@ -40098,6 +40395,7 @@
         "matricula": "2022215",
         "nome_completo": "BEATRIZ LOUREIRO GALACCIO",
         "turma": "9º Ano - U",
+        "arquivo_audio": "beatriz_loureiro.mp3",
         "encoding": [
             -0.07689432054758072,
             0.07186279445886612,
@@ -40233,6 +40531,7 @@
         "matricula": "2015062",
         "nome_completo": "DULCE MARIA NEPOMUCENO SILVA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "dulce_maria_nepomuceno.mp3",
         "encoding": [
             -0.139443501830101,
             0.061211541295051575,
@@ -40368,6 +40667,7 @@
         "matricula": "836",
         "nome_completo": "FELIPE RIBEIRO DE SOUSA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "felipe_ribeiro.mp3",
         "encoding": [
             -0.15680763125419617,
             0.10289791226387024,
@@ -40503,6 +40803,7 @@
         "matricula": "2022028",
         "nome_completo": "FRANCISCO LUCIANO DA SILVA RODRIGUES",
         "turma": "9º Ano - U",
+        "arquivo_audio": "francisco_luciano.mp3",
         "encoding": [
             -0.04386555403470993,
             0.05867079645395279,
@@ -40638,6 +40939,7 @@
         "matricula": "865",
         "nome_completo": "HARISON XAVIER DE LIMA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "harison_xavier.mp3",
         "encoding": [
             -0.08800037950277328,
             0.09395519644021988,
@@ -40773,6 +41075,7 @@
         "matricula": "2016199",
         "nome_completo": "JOAO LUCAS BEZERRA DE SOUSA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "joao_lucas_bezerra.mp3",
         "encoding": [
             -0.11095429956912994,
             0.11027850210666656,
@@ -40908,6 +41211,7 @@
         "matricula": "2015032",
         "nome_completo": "JOAO PEDRO FREITAS PEREIRA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "joao_pedro_freitas.mp3",
         "encoding": [
             -0.15656957030296326,
             0.1745416522026062,
@@ -41043,6 +41347,7 @@
         "matricula": "852",
         "nome_completo": "JULIA FELISBERTO MATOS",
         "turma": "9º Ano - U",
+        "arquivo_audio": "julia_felisberto.mp3",
         "encoding": [
             -0.09076182544231415,
             0.06444744765758514,
@@ -41178,6 +41483,7 @@
         "matricula": "839",
         "nome_completo": "JULIA LOHARA LOPES PEREIRA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "julia_lohara.mp3",
         "encoding": [
             -0.15434947609901428,
             0.06627532839775085,
@@ -41313,6 +41619,7 @@
         "matricula": "2015051",
         "nome_completo": "LARA SOPHIA SILVA MIRANDA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "lara_sophia_silva.mp3",
         "encoding": [
             -0.11284603923559189,
             -0.014396470040082932,
@@ -41448,6 +41755,7 @@
         "matricula": "2022423",
         "nome_completo": "LUISA VALENTINA ANTUNES MARTINS",
         "turma": "9º Ano - U",
+        "arquivo_audio": "luisa_valentina.mp3",
         "encoding": [
             -0.08333273977041245,
             0.01036148052662611,
@@ -41583,6 +41891,7 @@
         "matricula": "2015057",
         "nome_completo": "MARIA ELISA BESSA ABREU",
         "turma": "9º Ano - U",
+        "arquivo_audio": "maria_elisa.mp3",
         "encoding": [
             -0.17676813900470734,
             0.02820202335715294,
@@ -41718,6 +42027,7 @@
         "matricula": "2022009",
         "nome_completo": "MARIA HELENA NASCIMENTO DE MORAIS",
         "turma": "9º Ano - U",
+        "arquivo_audio": "maria_helena.mp3",
         "encoding": [
             -0.08265653252601624,
             -0.018661122769117355,
@@ -41853,6 +42163,7 @@
         "matricula": "20010278",
         "nome_completo": "MARINA HOLANDA VITORIANO",
         "turma": "9º Ano - U",
+        "arquivo_audio": "marina_holanda.mp3",
         "encoding": [
             -0.052406396716833115,
             0.07401686161756516,
@@ -41988,6 +42299,7 @@
         "matricula": "921",
         "nome_completo": "MATHEUS CARVALHO FREITAS",
         "turma": "9º Ano - U",
+        "arquivo_audio": "matheus_carvalho.mp3",
         "encoding": [
             -0.1708909571170807,
             0.0996859148144722,
@@ -42123,6 +42435,7 @@
         "matricula": "20010262",
         "nome_completo": "RAFAEL SILVA INACIO",
         "turma": "9º Ano - U",
+        "arquivo_audio": "rafael_silva.mp3",
         "encoding": [
             -0.10427361726760864,
             0.08492923527956009,
@@ -42258,6 +42571,7 @@
         "matricula": "2016055",
         "nome_completo": "RYAN VICTOR DE LIMA GONDIM",
         "turma": "9º Ano - U",
+        "arquivo_audio": "ryan_victor.mp3",
         "encoding": [
             -0.09143251180648804,
             0.12096589058637619,
@@ -42393,6 +42707,7 @@
         "matricula": "2022105",
         "nome_completo": "SAULO COSTA GOMES",
         "turma": "9º Ano - U",
+        "arquivo_audio": "saulo_costa.mp3",
         "encoding": [
             -0.16984528303146362,
             0.008951514028012753,
@@ -42528,6 +42843,7 @@
         "matricula": "920",
         "nome_completo": "SOFIA GOMES SOARES",
         "turma": "9º Ano - U",
+        "arquivo_audio": "sofia_gomes.mp3",
         "encoding": [
             -0.11000002920627594,
             -0.04712226614356041,
@@ -42663,6 +42979,7 @@
         "matricula": "935",
         "nome_completo": "THICYANE CARNEIRO CRUZ",
         "turma": "9º Ano - U",
+        "arquivo_audio": "thicyane_carneiro.mp3",
         "encoding": [
             -0.05868881195783615,
             0.03696230798959732,
@@ -42798,6 +43115,7 @@
         "matricula": "11111",
         "nome_completo": "THIAGO MONTEIRO NOGUEIRA",
         "turma": "9º Ano - U",
+        "arquivo_audio": "thiago_monteiro_nogueira.mp3",
         "encoding": [
             -0.08520562201738358,
             0.08105610311031342,

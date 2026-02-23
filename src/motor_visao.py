@@ -5,7 +5,6 @@ import os
 import numpy as np
 from datetime import datetime
 import motor_audio
-import utils_texto
 
 class MotorVisao:
 	def __init__(self, caminho_db_alunos, caminho_db_presencas, diretorio_audios):
@@ -48,7 +47,8 @@ class MotorVisao:
 				"hora": info["hora"],
 				"matricula": matricula,
 				"nome": info["nome"],
-				"turma": turma_alvo
+				"turma": turma_alvo,
+				"grupo": info["grupo"]
 			}
 			dados_existentes.append(registro)
 
@@ -61,8 +61,12 @@ class MotorVisao:
 
 		self.rodando = True
 		self.presencas_sessao = {}
-		
 		captura = cv2.VideoCapture(indice_camera, cv2.CAP_DSHOW)
+		
+		total_inscritos = len(self.encodings_conhecidos)
+		qtd_grupos = max(3, min(7, total_inscritos // 4))
+		if qtd_grupos < 1: 
+			qtd_grupos = 1
 		
 		while self.rodando:
 			ret, frame = captura.read()
@@ -88,17 +92,21 @@ class MotorVisao:
 						
 						if matricula not in self.presencas_sessao:
 							agora = datetime.now()
+							indice_grupo_alocado = (len(self.presencas_sessao) % qtd_grupos) + 1
+							nome_grupo_formatado = f"Grupo {indice_grupo_alocado}"
+							
 							self.presencas_sessao[matricula] = {
 								"nome": aluno_detectado["nome_completo"],
 								"data": agora.strftime("%Y-%m-%d"),
-								"hora": agora.strftime("%H:%M:%S")
+								"hora": agora.strftime("%H:%M:%S"),
+								"grupo": nome_grupo_formatado
 							}
 							
-							nome_vocalizacao = utils_texto.extrair_nome_vocalizacao(aluno_detectado["nome_completo"])
-							nome_arquivo = utils_texto.normalizar_nome_arquivo(nome_vocalizacao)
-							caminho_audio = os.path.join(self.diretorio_audios, f"{nome_arquivo}.mp3")
-							
-							motor_audio.tocar_audio_background(caminho_audio)
+							nome_arquivo = aluno_detectado.get("arquivo_audio")
+							if nome_arquivo:
+								caminho_audio_nome = os.path.join(self.diretorio_audios, nome_arquivo)
+								caminho_audio_grupo = f"audios/sistema/grupo_{indice_grupo_alocado}.mp3"
+								motor_audio.tocar_audio_background([caminho_audio_nome, caminho_audio_grupo])
 
 		captura.release()
 		self.salvar_presencas(turma_alvo)

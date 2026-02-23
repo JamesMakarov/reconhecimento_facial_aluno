@@ -10,7 +10,6 @@ def processar_cadastros(caminho_txt, diretorio_imagens, diretorio_audios, caminh
 
 	os.makedirs(diretorio_audios, exist_ok=True)
 	os.makedirs(os.path.dirname(caminho_json), exist_ok=True)
-
 	extensoes = [".jpg", ".jpeg", ".png"]
 
 	for aluno in alunos:
@@ -42,6 +41,7 @@ def processar_cadastros(caminho_txt, diretorio_imagens, diretorio_audios, caminh
 			"matricula": matricula,
 			"nome_completo": aluno["nome_completo"],
 			"turma": aluno["turma"],
+			"arquivo_audio": aluno["arquivo_audio"],
 			"encoding": encoding_lista
 		}
 		banco_dados.append(aluno_db)
@@ -50,9 +50,4 @@ def processar_cadastros(caminho_txt, diretorio_imagens, diretorio_audios, caminh
 		json.dump(banco_dados, arquivo_saida, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-	processar_cadastros(
-		"alunos.txt", 
-		"imagens_cadastro", 
-		"audios/nomes", 
-		"db/alunos.json"
-	)
+	processar_cadastros("alunos.txt", "imagens_cadastro", "audios/nomes", "db/alunos.json")
