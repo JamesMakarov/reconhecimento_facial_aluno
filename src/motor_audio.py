@@ -4,6 +4,7 @@ import pygame
 import threading
 import os
 import queue
+import time
 
 fila_audio = queue.Queue()
 thread_worker = None
@@ -21,14 +22,16 @@ def _worker_audio():
 			if os.path.exists(caminho):
 				pygame.mixer.music.load(caminho)
 				pygame.mixer.music.play()
+				# Substitui o relógio do pygame por um sleep microscópico (10ms)
 				while pygame.mixer.music.get_busy():
-					pygame.time.Clock().tick(10)
+					time.sleep(0.01)
 		fila_audio.task_done()
 
 def inicializar_mixer():
 	global thread_worker
 	if not pygame.mixer.get_init():
-		pygame.mixer.init()
+		# A mágica da velocidade: Forçando o buffer de áudio de 4096 para 512!
+		pygame.mixer.init(frequency=44100, size=-16, channels=2, buffer=512)
 		
 	if thread_worker is None or not thread_worker.is_alive():
 		thread_worker = threading.Thread(target=_worker_audio, daemon=True)
