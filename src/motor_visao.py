@@ -3,8 +3,37 @@ import face_recognition
 import json
 import os
 import numpy as np
+import threading
 from datetime import datetime
 import motor_audio
+
+class CameraDrenagem:
+	"""
+	O SEGREDO DA ARQUITETURA (Producer-Consumer): 
+	Esta classe roda isolada da Inteligência Artificial. Ela consome o USB 
+	na velocidade real (30fps) para impedir que o buffer do Windows encha e o driver exploda.
+	"""
+	def __init__(self, src=0):
+		# CAP_DSHOW é exigência absoluta para virtual webcams (Iriun) não travarem o MSMF
+		self.stream = cv2.VideoCapture(src, cv2.CAP_DSHOW)
+		self.grabbed, self.frame = self.stream.read()
+		self.stopped = False
+
+	def start(self):
+		# Inicia a thread que não para por nada
+		threading.Thread(target=self.update, daemon=True).start()
+		return self
+
+	def update(self):
+		while not self.stopped:
+			self.grabbed, self.frame = self.stream.read()
+
+	def read(self):
+		return self.frame
+
+	def stop(self):
+		self.stopped = True
+		self.stream.release()
 
 class MotorVisao:
 	def __init__(self, caminho_db_alunos, caminho_db_presencas, diretorio_audios):
@@ -62,8 +91,8 @@ class MotorVisao:
 		self.rodando = True
 		self.presencas_sessao = {}
 		
-		# Inicialização básica original
-		captura = cv2.VideoCapture(indice_camera)
+		# INICIA A DRENAGEM USB
+		cam = CameraDrenagem(indice_camera).start()
 		
 		total_inscritos = len(self.encodings_conhecidos)
 		qtd_grupos = max(3, min(7, total_inscritos // 4))
@@ -71,47 +100,60 @@ class MotorVisao:
 			qtd_grupos = 1
 		
 		while self.rodando:
-			ret, frame = captura.read()
-			if not ret:
-				break
+			frame_cru = cam.read()
+			
+			if frame_cru is None:
+				continue
 
-			# Redução simples
-			frame_reduzido = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
-			rgb_reduzido = cv2.cvtColor(frame_reduzido, cv2.COLOR_BGR2RGB)
+			# Trava o frame em memória pra IA não engasgar
+			frame = frame_cru.copy()
 
-			locais_faces = face_recognition.face_locations(rgb_reduzido)
-			encodings_faces = face_recognition.face_encodings(rgb_reduzido, locais_faces)
+			# IA de Dupla Escala (Velocidade e Precisão Absoluta juntas)
+			frame_pequeno = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+			rgb_pequeno = cv2.cvtColor(frame_pequeno, cv2.COLOR_BGR2RGB)
 
-			for encoding_face in encodings_faces:
-				matches = face_recognition.compare_faces(self.encodings_conhecidos, encoding_face, tolerance=0.45)
-				distancias = face_recognition.face_distance(self.encodings_conhecidos, encoding_face)
-				
-				if len(distancias) > 0:
-					melhor_indice = np.argmin(distancias)
+			locais_faces_pequeno = face_recognition.face_locations(rgb_pequeno)
+
+			# O código pesadão SÓ roda se o rosto já estiver na mira, poupando o PC
+			if locais_faces_pequeno:
+				rgb_original = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+				locais_faces_original = []
+
+				for top, right, bottom, left in locais_faces_pequeno:
+					locais_faces_original.append((top * 4, right * 4, bottom * 4, left * 4))
+
+				encodings_faces = face_recognition.face_encodings(rgb_original, locais_faces_original)
+
+				for encoding_face in encodings_faces:
+					matches = face_recognition.compare_faces(self.encodings_conhecidos, encoding_face, tolerance=0.45)
+					distancias = face_recognition.face_distance(self.encodings_conhecidos, encoding_face)
 					
-					if matches[melhor_indice]:
-						aluno_detectado = self.dados_alunos_conhecidos[melhor_indice]
-						matricula = aluno_detectado["matricula"]
+					if len(distancias) > 0:
+						melhor_indice = np.argmin(distancias)
 						
-						if matricula not in self.presencas_sessao:
-							agora = datetime.now()
-							indice_grupo_alocado = (len(self.presencas_sessao) % qtd_grupos) + 1
-							nome_grupo_formatado = f"Grupo {indice_grupo_alocado}"
+						if matches[melhor_indice]:
+							aluno_detectado = self.dados_alunos_conhecidos[melhor_indice]
+							matricula = aluno_detectado["matricula"]
 							
-							self.presencas_sessao[matricula] = {
-								"nome": aluno_detectado["nome_completo"],
-								"data": agora.strftime("%Y-%m-%d"),
-								"hora": agora.strftime("%H:%M:%S"),
-								"grupo": nome_grupo_formatado
-							}
-							
-							nome_arquivo = aluno_detectado.get("arquivo_audio")
-							if nome_arquivo:
-								caminho_audio_nome = os.path.join(self.diretorio_audios, nome_arquivo)
-								caminho_audio_grupo = f"audios/sistema/grupo_{indice_grupo_alocado}.mp3"
-								motor_audio.tocar_audio_background([caminho_audio_nome, caminho_audio_grupo])
+							if matricula not in self.presencas_sessao:
+								agora = datetime.now()
+								indice_grupo_alocado = (len(self.presencas_sessao) % qtd_grupos) + 1
+								nome_grupo_formatado = f"Grupo {indice_grupo_alocado}"
+								
+								self.presencas_sessao[matricula] = {
+									"nome": aluno_detectado["nome_completo"],
+									"data": agora.strftime("%Y-%m-%d"),
+									"hora": agora.strftime("%H:%M:%S"),
+									"grupo": nome_grupo_formatado
+								}
+								
+								nome_arquivo = aluno_detectado.get("arquivo_audio")
+								if nome_arquivo:
+									caminho_audio_nome = os.path.join(self.diretorio_audios, nome_arquivo)
+									caminho_audio_grupo = f"audios/sistema/grupo_{indice_grupo_alocado}.mp3"
+									motor_audio.tocar_audio_background([caminho_audio_nome, caminho_audio_grupo])
 
-		captura.release()
+		cam.stop()
 		self.salvar_presencas(turma_alvo)
 
 	def parar_reconhecimento(self):
